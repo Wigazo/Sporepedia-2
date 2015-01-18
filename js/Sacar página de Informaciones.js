@@ -1,0 +1,2 @@
+//Posición: En todas las páginas
+$("meta[http-equiv='refresh'][content]:first").each(function(){window.location.href=$(this).attr("content").replace(/^.*;url=/,"")});

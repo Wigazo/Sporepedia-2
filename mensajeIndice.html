@@ -1,0 +1,180 @@
+<style type="text/css">
+
+
+.picshow { z-index:444; position:relative; background-color:#ffffff; width: 100%; height: 159}
+
+.picshow_main {position: relative;  height: 165px}
+
+.picshow_main .imgbig { filter: progid:dximagetransform.microsoft.wipe(gradientsize=1.0,wipestyle=4, motion=forward); width: 755px; height: 159px}
+
+.picshow_change {text-align: left;  height: 30px; right: 0px; left: 40px;}
+
+.picshow_change img {width:15px; height: 15px}
+
+.picshow_change a { border: 1px solid; display: block; float: left; margin-right: 5px; -display: inline}
+
+a.axx { border-color: #555}
+
+a.axx:hover {border-color: #000}
+
+a.axx img { filter: alpha(opacity=40); opacity: 0.4; -moz-opacity: 0.4}
+
+a.axx:hover img {filter: alpha(opacity=100); opacity: 1.0; -moz-opacity: 1.0}
+
+a.bxx { border-color: #000}
+
+a.bxx:hover {border-color: #000}
+
+img{
+
+border:0px}
+
+</style><script language="javascript">
+
+var counts = 5;
+
+img1 = new Image();
+img2 = new Image();
+img3 = new Image();
+img4 = new Image();
+img5 = new Image();
+
+img3.src = 'http://i.imgur.com/qRDFx3M.png';
+img4.src = 'http://i1275.photobucket.com/albums/y460/Wigazo4/ENTREVISTA16_zps2b4c4111.png';
+
+img5.src = 'http://i1347.photobucket.com/albums/p703/RhineGuapo/Creaciones/CDMG_zpsa3896cbf.png';
+
+img2.src = 'http://i1347.photobucket.com/albums/p703/RhineGuapo/CDM_zps443f0b21.jpg';
+
+img1.src = 'http://i.imgur.com/VwaKqK4.jpg';
+
+
+var smallImg = new Array();
+
+smallImg[0] = 'http://i60.servimg.com/u/f60/12/10/25/45/index_10.gif';
+smallImg[1] = 'http://i60.servimg.com/u/f60/12/10/25/45/index_11.gif';
+smallImg[2] = 'http://i60.servimg.com/u/f60/12/10/25/45/index_12.gif';
+smallImg[3] = 'http://i38.servimg.com/u/f38/15/34/08/13/4anunc10.png';
+smallImg[4] = 'http://i.imgur.com/feLN7gH.png';
+
+url4 = 'http://www.sporepedia2.com/t15993-entrevista-n16-rhinestone-jdf';
+url2 = 'http://www.sporepedia2.com/t16163-amigo-invisible-2014';
+url3 = 'http://www.sporepedia2.com/t16053-resultados-de-brozoween';
+url5 = 'http://www.sporepedia2.com/t13640-creacion-del-mes';
+url1 = 'http://www.sporepedia2.com/t16273-cuentos-navidenos';
+
+alt1 = new Image();
+alt1.alt = '';
+alt2 = new Image();
+alt2.alt = '';
+alt3 = new Image();
+alt3.alt = '';
+alt4 = new Image();
+alt4.alt = '';
+alt5 = new Image();
+alt5.alt = '';
+
+var nn = 1;
+
+var key = 0;
+
+function change_img() {
+
+if (key == 0) {
+
+key = 1;
+
+} else if (document.all) {
+
+document.getElementById("pic").filters[0].Apply();
+
+document.getElementById("pic").filters[0].Play(duration = 2);
+
+}
+
+eval('document.getElementById("pic").src=img' + nn + '.src');
+
+eval('document.getElementById("url_theme").href=url' + nn);
+
+eval('document.getElementById("pic").alt=alt' + nn + '.alt');
+
+if (nn == 1) {
+
+document.getElementById("url_theme").target = "_blank";
+
+//document.getElementById("url_theme").style.cursor = "pointer";
+
+} else {
+
+document.getElementById("url_theme").target = "_blank"
+
+//document.getElementById("url_theme").style.cursor = "pointer"
+
+}
+
+
+
+for ( var i = 1; i <= counts; i++) {
+
+document.getElementById("xxjdjj" + i).className = 'axx';
+
+}
+
+document.getElementById("xxjdjj" + nn).className = 'bxx';
+
+nn++;
+
+if (nn > counts) {
+
+nn = 1;
+
+}
+
+tt = setTimeout('change_img()', 5000);
+
+}
+
+function changeimg(n) {
+
+nn = n;
+
+window.clearInterval(tt);
+
+change_img();
+
+}
+
+function ImageShow() {
+
+document.write('<div class="picshow_main">');
+
+document.write('<div><a id="url_theme"><img id="pic" class="imgbig" position: center/></a></div>');
+
+document.write('<div class="picshow_change">');
+
+for ( var i = 0; i < counts; i++) {
+
+document.write('<a href="javascript:changeimg(' + (i + 1)
+
++ ');" id="xxjdjj' + (i + 1)
+
++ '" class="axx" target="_self"><img src="' + smallImg[i]
+
++ '"></a>');
+
+}
+
+document.write('</div></div>');
+document.write('</center>');
+
+change_img();
+
+}
+
+</script><script language="javascript" type="text/javascript">
+
+ImageShow();
+</script>  <br />
+<center>
+	       <a id="frase-celebre" style="font-size: 18px; color: #BBBDBC" href="http://www.sporepedia2.com/t6533-frases-celebres-del-foro#122530">...</a>
+</center>
