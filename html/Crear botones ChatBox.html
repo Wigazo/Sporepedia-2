@@ -1,0 +1,169 @@
+<!--
+    Título: Crear botones ChatBox
+    ¿Deseas utilizar la parte alta y la parte baja de la página de tu foro? No
+    ¿Utilizar esta página como índice? No
+-->
+<html>
+	<head>
+          	<meta charset='utf-8'> 
+		<link rel="stylesheet" type="text/css" href="77-ltr.css">
+                <style type="text/css">
+			a:hover {
+    				cursor:pointer;
+   			}
+                  	a{
+                  		color: #03b2ed;
+                  	}
+		</style>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script>
+			var botones = new Array();
+			var categorias = new Array();
+			var smilies = new Array();
+
+			function añadirBoton(){
+				botones.push([$("#boton-nombre")[0].value, $("#boton-codigo")[0].value]);
+				actualizarBotones();
+				$("#misBotones")[0].selectedIndex = $("#misBotones")[0].length-1;
+			}
+
+			function eliminarBoton(){
+				botones.splice($("#misBotones")[0].selectedIndex, 1);
+				actualizarBotones();
+				cargarBoton();
+			}
+			
+			function actualizarBotones(){
+				$("#misBotones")[0].innerHTML = "";
+				for (var i = 0; i < botones.length; i++) {
+					$("#misBotones")[0].innerHTML += "<option>"+botones[i][0];
+				}
+				if(botones.length > 0){
+					$("#boton-hide")[0].style.display = "block";
+				}else{
+					$("#boton-hide")[0].style.display = "none";
+				}
+			}
+			
+			function cargarBoton(){
+				if(botones[$("#misBotones")[0].selectedIndex]){
+					$("#boton-nombre")[0].value = botones[$("#misBotones")[0].selectedIndex][0];
+					$("#boton-codigo")[0].value = botones[$("#misBotones")[0].selectedIndex][1];
+				}
+			}
+
+			function eliminarFila(index){
+				if($("table")[0].rows.length>3){
+					$("table")[0].deleteRow(index);
+				}else{
+					alert("Dos filas mínimo.");
+				}
+			}
+
+			function nuevaFila(){
+				$("table")[0].insertRow(-1);
+				$("table")[0].rows[$("table")[0].rows.length-1].innerHTML = '<td><input class="inputbox tiny"></td><td><input class="inputbox tiny"></td><td><center><a onclick="eliminarFila($(this).parent().parent().parent().index())"><img src="http://img12.imageshack.us/img12/5659/88400698.png"></a></center></td>';
+			}
+
+			function añadirCategoria(){
+				categorias.push([]);
+				for(var r = 1; r < $("table")[0].rows.length; r++){
+					categorias[categorias.length-1].push([$("table")[0].rows[r].getElementsByTagName("input")[0].value, $("table")[0].rows[r].getElementsByTagName("input")[1].value]);
+				}		
+				actualizarCategorias();
+				$("#misCategorias")[0].selectedIndex = $("#misCategorias")[0].length-1;
+			}
+
+			function eliminarCategoria(){
+				categorias.splice($("#misCategorias")[0].selectedIndex, 1);
+				actualizarCategorias();
+				cargarCategoria();
+			}
+			
+			function actualizarCategorias(){
+				$("#misCategorias")[0].innerHTML = "";
+				for (var i = 0; i < categorias.length; i++) {
+					$("#misCategorias")[0].innerHTML += "<option>"+categorias[i][0][0];
+				}
+				if(categorias.length > 0){
+					$("#categoria-hide")[0].style.display = "block";
+				}else{
+					$("#categoria-hide")[0].style.display = "none";
+				}
+			}
+			
+			function cargarCategoria(){
+				if(categorias[$("#misCategorias")[0].selectedIndex]){
+					$("table")[0].innerHTML = "<tr><th>Nombre</th><th>Código</th><th>Eliminar</th></tr>";
+					for (var i = 0; i < categorias[$("#misCategorias")[0].selectedIndex].length; i++) {
+						$("table")[0].insertRow(-1);
+						$("table")[0].rows[$("table")[0].rows.length-1].innerHTML = '<td><input class="inputbox tiny"></td><td><input class="inputbox tiny"></td><td><center><a onclick="eliminarFila($(this).parent().parent().parent().index())"><img src="http://img12.imageshack.us/img12/5659/88400698.png"></a></center></td>';
+						$("table")[0].rows[$("table")[0].rows.length-1].getElementsByTagName("input")[0].value = categorias[$("#misCategorias")[0].selectedIndex][i][0];
+						$("table")[0].rows[$("table")[0].rows.length-1].getElementsByTagName("input")[1].value = categorias[$("#misCategorias")[0].selectedIndex][i][1];					
+					}
+				}else{
+					$("table")[0].innerHTML = '<tr><th>Nombre</th><th>Código</th><th>Eliminar</th></tr><tr><td><input class="inputbox tiny"></td><td><input class="inputbox tiny"></td><td><center><a onclick="eliminarFila($(this).parent().parent().parent().index())"><img src="http://img12.imageshack.us/img12/5659/88400698.png"></a></center></td></tr><tr><td><input class="inputbox tiny"></td><td><input class="inputbox tiny"></td><td><center><a onclick="eliminarFila($(this).parent().parent().parent().index())"><img src="http://img12.imageshack.us/img12/5659/88400698.png"></a></center></td></tr>';
+				}
+			}
+
+			function añadirSmile(){
+				if($("#smile-url")[0].value != ""){
+					smilies.push($("#smile-url")[0].value);	
+					$("#smile-url")[0].value = "";
+					actualizarSmilies();
+				}
+			}
+
+			function eliminarSmile(element){
+				smilies.splice($(element).index(),1);
+				actualizarSmilies();
+			}
+			
+			function actualizarSmilies(){
+				$("#misSmilies")[0].innerHTML = "";
+				for (var i = 0; i < smilies.length; i++) {
+					$("#misSmilies")[0].innerHTML += "<a onclick='eliminarSmile(this)'><img src='" + smilies[i] + "'></a>";
+				}
+			}
+			
+			function descargar(){
+				var userscript =  atob("DQovLyA9PVVzZXJTY3JpcHQ9PQ0KLy8gQG5hbWUgU3BvcmVwZWRpYSAyOiBCb3RvbmVzIENoYXRCb3gNCi8vID09L1VzZXJTY3JpcHQ9PQ0KdmFyIGJvdG9uZXMgPSBuZXcgQXJyYXkoKTsNCnZhciBjYXRlZ29yaWFzID0gbmV3IEFycmF5KCk7DQp2YXIgc21pbGllcyA9IG5ldyBBcnJheSgpOw0KZnVuY3Rpb24gaW55ZWN0YXIoY29kaWdvKXsNCiAgICB2YXIgc2NyaXB0ID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnc2NyaXB0Jyk7DQogICAgc2NyaXB0LmlubmVySFRNTCA9IGNvZGlnbzsNCiAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKHNjcmlwdCk7DQp9");
+				for (var i = 0; i < botones.length; i++) {
+					userscript += "botones.push(['" + botones[i][1] + "','" + botones[i][0] + "']);\n";
+				}
+				for (var i = 0; i < categorias.length; i++) {
+					userscript += "categorias.push([";
+					for (var j = 0; j < categorias[i].length; j++) {
+						userscript += "['" + categorias[i][j][1] + "','" + categorias[i][j][0] + "'],";
+					}
+					userscript += "]);\n";
+				}
+				for (var i = 0; i < smilies.length; i++) {
+					userscript += "smilies.push('" + smilies[i] + "');\n";
+				}
+				userscript += atob("aWYoZG9jdW1lbnQuVVJMLmluZGV4T2YoImh0dHA6Ly93d3cuc3BvcmVwZWRpYTIuY29tL2gyLSIpPT0wKXsNCgl2YXIgY29kaWdvOw0KCWZvciAodmFyIGkgPSAwOyBpIDwgYm90b25lcy5sZW5ndGg7IGkrKykgew0KCQljb2RpZ28gPSAiYm90b25lcy5wdXNoKFsnIiArIGJvdG9uZXNbaV1bMV0gKyAiJywnIiArIGJvdG9uZXNbaV1bMF0gKyAiJ10pOyI7DQoJCWlueWVjdGFyKGNvZGlnbyk7DQoJfQ0KCWZvciAodmFyIGkgPSAwOyBpIDwgY2F0ZWdvcmlhcy5sZW5ndGg7IGkrKykgew0KCQljb2RpZ28gPSAiY2F0ZWdvcmlhcy5wdXNoKFsiOw0KCQlmb3IgKHZhciBqID0gMDsgaiA8IGNhdGVnb3JpYXNbaV0ubGVuZ3RoOyBqKyspIHsNCgkJCWNvZGlnbyArPSAiWyciICsgY2F0ZWdvcmlhc1tpXVtqXVsxXSArICInLCciICsgY2F0ZWdvcmlhc1tpXVtqXVswXSArICInXSwiOw0KCQl9DQoJCWNvZGlnbyArPSAiXSk7IjsNCgkJaW55ZWN0YXIoY29kaWdvKTsNCgl9DQoJZm9yICh2YXIgaSA9IDA7IGkgPCBzbWlsaWVzLmxlbmd0aDsgaSsrKSB7DQoJCWNvZGlnbyA9ICJzbWlsaWVzLnB1c2goJyIgKyBzbWlsaWVzW2ldICsgIicpOyI7DQoJCWlueWVjdGFyKGNvZGlnbyk7DQoJfQ0KCWlueWVjdGFyKCJhY3R1YWxpemFyQm90b25lcygpOyIpOw0KCWlueWVjdGFyKCJjYXJnYXJCb3RvbigpOyIpOw0KCWlueWVjdGFyKCJhY3R1YWxpemFyQ2F0ZWdvcmlhcygpOyIpOw0KCWlueWVjdGFyKCJjYXJnYXJDYXRlZ29yaWEoKTsiKTsNCglpbnllY3RhcigiYWN0dWFsaXphclNtaWxpZXMoKTsiKTsNCn0NCmlmKGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJjaGF0Ym94X2Zvb3RlciIpKXsNCglmb3IgKHZhciBpID0gMDsgaSA8IGJvdG9uZXMubGVuZ3RoOyBpKyspIHsNCgkJZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImNoYXRib3hfZm9vdGVyIikuaW5uZXJIVE1MICs9ICIgICA8YnV0dG9uIG9uY2xpY2s9XCJkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbWVzc2FnZScpLnZhbHVlICs9ICciICsgYm90b25lc1tpXVswXSArICInO2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdtZXNzYWdlJykuZm9jdXMoKTtcIj4iICsgYm90b25lc1tpXVsxXSArICI8L2J1dHRvbj4iOw0KCX0NCglmb3IgKHZhciBpID0gMDsgaSA8IGNhdGVnb3JpYXMubGVuZ3RoOyBpKyspIHsNCgkJZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoImNoYXRib3hfZm9vdGVyIikuaW5uZXJIVE1MICs9ICIgICA8c2VsZWN0IG9uY2hhbmdlPVwiZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ21lc3NhZ2UnKS52YWx1ZSArPSB0aGlzLnZhbHVlO2RvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdtZXNzYWdlJykuZm9jdXMoKTt0aGlzLm9wdGlvbnNbMF0uaW5uZXJIVE1MID0gdGhpcy5vcHRpb25zW3RoaXMuc2VsZWN0ZWRJbmRleF0uaW5uZXJIVE1MO3RoaXMudmFsdWUgPSAnJztcIiBjbGFzcz0nY2F0ZWdvcmlhLWNiJz48L3NlbGVjdD4iOw0KCQlkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKCJjYXRlZ29yaWEtY2IiKVtpXS5pbm5lckhUTUwgKz0gIjxvcHRpb24gc3R5bGU9J2Rpc3BsYXk6IG5vbmU7JyB2YWx1ZT0nJz4iICsgY2F0ZWdvcmlhc1tpXVswXVsxXSArICI8L29wdGlvbj4iOw0KCQlmb3IgKHZhciBqID0gMDsgaiA8IGNhdGVnb3JpYXNbaV0ubGVuZ3RoOyBqKyspIHsNCgkJCWRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoImNhdGVnb3JpYS1jYiIpW2ldLmlubmVySFRNTCArPSAiPG9wdGlvbiB2YWx1ZT0nIisgIGNhdGVnb3JpYXNbaV1bal1bMF0gKyAiJz4iICsgY2F0ZWdvcmlhc1tpXVtqXVsxXSArICI8L29wdGlvbj4iOw0KCQl9DQoJfQ0KfQ0KaWYoZG9jdW1lbnQuVVJMLmluZGV4T2YoIm1vZGU9c21pbGllcyIpID4gLTEgJiYgc21pbGllcy5sZW5ndGggPiAwKXsNCglkb2N1bWVudC5nZXRFbGVtZW50c0J5TmFtZSgiY2F0ZWciKVswXS5pbm5lckhUTUwgKz0gIjxvcHRpb24gdmFsdWU9JzIzJz5TbWlsaWVzIFBlcnNvbmFsZXM8L29wdGlvbj4iOw0KCWlmKGRvY3VtZW50LlVSTC5pbmRleE9mKCJjYXRlZz0yMyIpID4gLTEpew0KCQlpZihkb2N1bWVudC5VUkwuaW5kZXhPZigibW9kZT1zbWlsaWVzX2ZyYW1lIikgPT0gLTEpew0KCQkJd2hpbGUgKGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJhIikubGVuZ3RoID4gMSkgew0KCQkJCWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCJzaW1wbGUtd3JhcCIpLnJlbW92ZUNoaWxkKGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJhIilbMF0pOw0KCQkJfQ0KCQkJdmFyIGNlcnJhciA9IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJwIilbMV07DQoJCQlkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgic2ltcGxlLXdyYXAiKS5yZW1vdmVDaGlsZChjZXJyYXIpOw0KCQkJZm9yICh2YXIgaSA9IDA7IGkgPCBzbWlsaWVzLmxlbmd0aDsgaSsrKSB7DQoJCQkJZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoInNpbXBsZS13cmFwIikuaW5uZXJIVE1MICs9ICI8YSBocmVmPVwiamF2YXNjcmlwdDppbnNlcnRfY2hhdGJveHNtaWxpZSgnW2ltZ10iICsgc21pbGllc1tpXSArICJbL2ltZ10nKVwiIHN0eWxlPVwibWFyZ2luLWxlZnQ6IDEwcHg7XCI+PGltZyBzcmM9XCIiICsgc21pbGllc1tpXSArICJcIiBzdHlsZT1cIm1hcmdpbi1ib3R0b206IDEwcHg7XCI+PC9hPiI7DQoJCQl9DQoJCQlkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgic2ltcGxlLXdyYXAiKS5hcHBlbmRDaGlsZChjZXJyYXIpOw0KCQl9ZWxzZXsNCgkJCWRvY3VtZW50LmdldEVsZW1lbnRzQnlDbGFzc05hbWUoInNtaWxleS1lbGVtZW50IilbMF0uaW5uZXJIVE1MID0gIiI7DQoJCQlmb3IgKHZhciBpID0gMDsgaSA8IHNtaWxpZXMubGVuZ3RoOyBpKyspIHsNCgkJCQlkb2N1bWVudC5nZXRFbGVtZW50c0J5Q2xhc3NOYW1lKCJzbWlsZXktZWxlbWVudCIpWzBdLmlubmVySFRNTCArPSAnPGEgb25jbGljaz0icGFyZW50Lmluc2VydEludG9FZGl0b3IoXCdbaW1nXScgKyBzbWlsaWVzW2ldICsgJ1svaW1nXVwnKTsiPjxpbWcgc3JjPSInICsgc21pbGllc1tpXSArICciPjwvYT4nOw0KCQkJfQ0KCQl9DQoJfQkNCn0=");
+				userscript = btoa(userscript);
+				userscript = "data:application/javascript;base64,77u/" + userscript;
+				$("#download")[0].href = userscript;
+				$("#download")[0].click();
+			}
+			
+		</script>
+	</head>
+	<body style="background-color: #3D3D3D; background-image: none; padding-left: 10px; padding-right: 10px;">
+		<div class="h3">Botones</div> Nombre: <input class="inputbox tiny" id="boton-nombre"> Código: <input class="inputbox tiny" id="boton-codigo"><br>
+		<br><a onclick="añadirBoton()"><img src="http://i44.servimg.com/u/f44/15/34/08/13/12.png"> Añadir</a><br>
+		<br><div id="boton-hide" style="display:none;"><select id="misBotones" onchange="cargarBoton()"></select>  <a onclick="eliminarBoton()"><img src="http://img12.imageshack.us/img12/5659/88400698.png"> Eliminar</a></div><br>
+
+		<div class="h3">Categorías</div><table border="1px"><tr><th>Nombre</th><th>Código</th><th>Eliminar</th></tr><tr><td><input class="inputbox tiny"></td><td><input class="inputbox tiny"></td><td><center><a onclick="eliminarFila($(this).parent().parent().parent().index())"><img src="http://img12.imageshack.us/img12/5659/88400698.png"></a></center></td></tr><tr><td><input class="inputbox tiny"></td><td><input class="inputbox tiny"></td><td><center><a onclick="eliminarFila($(this).parent().parent().parent().index())"><img src="http://img12.imageshack.us/img12/5659/88400698.png"></a></center></td></tr></table>
+		<a onclick="nuevaFila()"><img src="http://i44.servimg.com/u/f44/15/34/08/13/12.png"> Nueva Fila</a><br>
+		<br><a onclick="añadirCategoria()"><img src="http://i44.servimg.com/u/f44/15/34/08/13/12.png"> Añadir</a><br>
+		<br><div id="categoria-hide" style="display:none;"><select id="misCategorias" onchange="cargarCategoria()"></select>  <a onclick="eliminarCategoria()"><img src="http://img12.imageshack.us/img12/5659/88400698.png"> Eliminar</a></div><br>
+	
+		<div class="h3">Smilies</div> URL: <input class="inputbox tiny" id="smile-url"><br>
+		<br><a onclick="añadirSmile()"><img src="http://i44.servimg.com/u/f44/15/34/08/13/12.png"> Añadir</a><br>
+		<br><div id="misSmilies" class="forabg"></div><br>
+		
+		<hr><button onclick="descargar()" style="background-color: #B3b3b3; border-color: #B3B3B3;">Descargar userscript</button><a id="download" href="" download='botonesChatBox.user.js'></a>
+	</body>
+</html>
