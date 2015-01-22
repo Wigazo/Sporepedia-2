@@ -1,0 +1,159 @@
+<!--
+    Título: Smilies Personales
+    ¿Deseas utilizar la parte alta y la parte baja de la página de tu foro? Sí
+    ¿Utilizar esta página como índice? No
+-->
+<div id="fa-smiles-personales" class="module">
+	<style type="text/css">
+			a:hover {
+				cursor:pointer;
+			}
+	</style>
+	<script>
+			var smilies = new Array();
+
+			function añadirSmile(){
+				if($("#smile-url")[0].value != ""){
+					smilies.push($("#smile-url")[0].value);	
+					$("#smile-url")[0].value = "";
+					actualizarSmilies();
+				}
+			}
+
+			function eliminarSmile(element){
+				smilies.splice($(element).index()-2,1);
+				actualizarSmilies();
+			}
+			
+			function actualizarSmilies(){
+				$("#misSmilies")[0].innerHTML = "<u>Smilies Personales</u><br>";
+				if(smilies.length > 0){
+					$("#boton-descargar")[0].style.display = "block";
+					for (var i = 0; i < smilies.length; i++) {
+						$("#misSmilies")[0].innerHTML += "<a onclick='eliminarSmile(this)'><img src='" + smilies[i] + "'></a>";
+					}
+				}else{
+					$("#boton-descargar")[0].style.display = "none";
+					$("#misSmilies")[0].innerHTML += "No tienes ningún smile personal.";
+				}
+			}
+			
+			function descargar(){
+				var userscript = 	"\n// ==UserScript==";
+				userscript += 		"\n// @name Foroactivo: Smilies Personales";
+				userscript += 		"\n// @include " + location.origin + "/*";
+				userscript += 		"\n// ==/UserScript==";
+				userscript += 		"\nvar smilies = new Array();";
+				for (var i = 0; i < smilies.length; i++) {
+					userscript += 	"\nsmilies.push('" + smilies[i] + "');";
+				}
+				userscript += 		"\nfunction inyectar(codigo){";
+				userscript += 		"\n	var script = document.createElement('script');";
+				userscript += 		"\n	script.innerHTML = codigo;";
+				userscript += 		"\n	document.body.appendChild(script);";
+				userscript += 		"\n}";
+				userscript += 		"\nif(document.getElementById('fa-smiles-personales')){";
+				userscript += 		"\n	var codigo;";
+				userscript += 		"\n	for (var i = 0; i < smilies.length; i++) {";
+				userscript += 		"\n		codigo = \"smilies.push('\" + smilies[i] + \"');\";";
+				userscript += 		"\n		inyectar(codigo);";
+				userscript += 		"\n	}";
+				userscript += 		"\n	inyectar(\"actualizarSmilies();\");";
+				userscript += 		"\n}";
+				userscript += 		"\nif(/mode=smilies/.test(location.search)){";
+				userscript += 		"\n	document.getElementsByName(\"categ\")[0].innerHTML += \"<option value='23'>Smilies Personales</option>\";";
+				userscript += 		"\n	if(/categ=23/.test(location.search)){";
+				userscript += 		"\n		if(/mode=smilies_frame/.test(location.search)){";
+				userscript += 		"\n			document.getElementsByClassName(\"smiley-element\")[0].innerHTML = \"\";";
+				userscript += 		"\n			for (var i = 0; i < smilies.length; i++) {";
+				userscript += 		"\n				document.getElementsByClassName(\"smiley-element\")[0].innerHTML += \"<a onclick=\\\"parent.insertIntoEditor('[img]\" + smilies[i] + \"[/img]');\\\"><img src=\\\"\" + smilies[i] + \"\\\"></a>\";";
+				userscript += 		"\n			}";
+				userscript += 		"\n		}else{";
+				userscript += 		"\n			while (document.getElementsByTagName(\"a\").length > 1) {";
+				userscript += 		"\n				document.getElementById(\"simple-wrap\").removeChild(document.getElementsByTagName(\"a\")[0]);";
+				userscript += 		"\n			}";
+				userscript += 		"\n			var cerrar = document.getElementsByTagName(\"p\")[1];";
+				userscript += 		"\n			document.getElementById(\"simple-wrap\").removeChild(cerrar);";
+				userscript += 		"\n			for (var i = 0; i < smilies.length; i++) {";
+				userscript += 		"\n				document.getElementById(\"simple-wrap\").innerHTML += \"<a href=\\\"javascript:insert_chatboxsmilie('[img]\" + smilies[i] + \"[/img]')\\\" style=\\\"margin-left: 10px;\\\"><img src=\\\"\" + smilies[i] + \"\\\" style=\\\"margin-bottom: 10px;\\\"></a>\";";
+				userscript += 		"\n			}";
+				userscript += 		"\n			document.getElementById(\"simple-wrap\").appendChild(cerrar);";
+				userscript += 		"\n		}";
+				userscript += 		"\n	}";
+				userscript += 		"\n}";
+				
+				var bb = new Blob([userscript], {type: "application/javascript"});
+				$("#download")[0].href = window.URL.createObjectURL(bb);
+				$("#download")[0].click();
+			}	
+	</script>
+	<div class="h3">Creador de userscripts de smilies personales</div> 
+	<br>URL: <input class="inputbox tiny" id="smile-url">
+	<br>
+	<br>
+	<a onclick="añadirSmile()"><img src="http://i44.servimg.com/u/f44/15/34/08/13/12.png"> Añadir</a>
+	<br>
+	<br>
+	<div id="misSmilies" class="forabg"><u>Smilies Personales</u><br>No tienes ningún smile personal.</div>
+	<button id="boton-descargar" onclick="descargar()" style="display: none;">¡Listo!</button><a id="download" href="" download='smiliesPersonales.user.js'></a>
+	<br>
+	<br>
+	<div class="h3">Ayuda</div>
+	<br>Esta aplicación te permite tener tus propios smilies personales. 
+	<br>Éstos aparecerán en una nueva categoría llamada "Smilies Personales".
+	<br><img src="http://i1369.photobucket.com/albums/ag220/Foroactivo/categ_zpsd5f35783.gif"> 
+	<br>
+	<br>
+	<br><strong>Navegadores compatibles:</strong> 
+	<ul>
+		<li>Chrome 14 (o posterior).</li>
+		<li>Firefox 20 (o posteror) con <a href="https://addons.mozilla.org/es/firefox/addon/greasemonkey/">Greasemonkey</a>.</li>
+	</ul>
+	<br>
+	<br><strong>Instrucciones:</strong>
+	<ul>
+    		<li>En el campo "URL" escribe (o simplemente pega) la URL de la imagen que quieras agregar como smilie.</li>
+    		<li>Haz click en "Añadir" para agregar el nuevo smilie.</li>
+    		<li>En el recuadro "Smilies Personales" se mostrarán los smilies agregados. Para eliminar uno hay que hacerle click.</li>
+    		<li>Una vez tengas todos los smilies deseados, haz click en el botón "¡Listo!" para descargar el archivo userscript (llamado "smiliesPersonales.user.js") y luego instálalo.</li>
+		<li>¡Listo, ya tienes tus propios smilies en el foro!</li>
+		<li>Si quieres agregar nuevos smilies o eliminar otros, regresa a esta página y aplique todos los cambios necesarios. Luego simplemente descargue el nuevo userscript e instálalo (recuerda antes borrar el viejo).</li>
+	</ul>
+	<br>
+	<br><strong>¿Cómo instalo el userscript?</strong>
+	<br>
+	<br>Depede del navegador. A continuación se explica cómo es en cada uno.
+	<br>
+	<br>
+	<dl class="codebox spoiler"><dt style="cursor: pointer;">Chrome</dt><dd><div class="spoiler_content">
+		<ol>
+			<li>Haz clic en el menú de Chrome <img src="http://i1369.photobucket.com/albums/ag220/Foroactivo/menu_zpsde6a9b17.png" width="29" height="29"> en la barra de herramientas del navegador.</li>
+			<li>Haz clic en <strong>Herramientas</strong>.</li>
+			<li>Selecciona <strong>Extensiones</strong>.</li>
+			<li>Arrastra el archivo <i>smiliesPersonales.user.js</i> a la página abierta.</li>
+			<li>Haz clic en <strong>Añadir</strong> dentro del cuadro de diálogo emergente.</li>
+		</ol>
+		<br>Abajo puedes ver un gif explicativo.
+		<hr>
+		<img src="http://i1369.photobucket.com/albums/ag220/Foroactivo/chrome_zpsdd5b897c.gif"/>
+	</div></dd></dl>
+	<br>
+	<br>
+	<dl class="codebox spoiler"><dt style="cursor: pointer;">Firefox</dt><dd><div class="spoiler_content">
+		<center><hr>
+		<img src="http://i1369.photobucket.com/albums/ag220/Foroactivo/importante_zps57383716.png"><strong>IMPORTANTE</strong><img src="http://i1369.photobucket.com/albums/ag220/Foroactivo/importante_zps57383716.png">
+		<br>Se requiere tener instalado el complemento <a href="https://addons.mozilla.org/es/firefox/addon/greasemonkey/">Greasemonkey</a>.
+		<hr></center>
+		<ol>
+			<li>Haz clic en el menú de Greasemonkey <img src="http://i1369.photobucket.com/albums/ag220/Foroactivo/GM_zpsbbddd1be.png"> en la barra de herramientas del navegador.</li>
+			<li>Selecciona <strong>Administrar Scripts</strong>.</li>
+			<li>Arrastra el archivo <i>smiliesPersonales.user.js</i> a la página abierta.</li>
+			<li>Haz clic en <strong>Instalar</strong> dentro del cuadro de diálogo emergente.</li>
+			<li>Si se abre una segunda ventana emergente (por un bug de Greasemonkey) haz clic en <strong>Cancelar</strong> dentro de ella.</li>
+		</ol>
+		<br>Abajo puedes ver un gif explicativo.
+		<hr>
+		<img src="http://i1369.photobucket.com/albums/ag220/Foroactivo/firefox_zps0ea9cba7.gif"/>
+	</div></dd></dl>
+	<br>
+</div>
