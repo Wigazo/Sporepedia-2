@@ -1,0 +1,58 @@
+<!--
+    Título: Elección del Fondo
+    ¿Deseas utilizar la parte alta y la parte baja de la página de tu foro? No
+    ¿Utilizar esta página como índice? No
+-->
+document.write('<div style="position: absolute; width: 150px; height: 38px; z-index: 1; left: 46px; top: 10px;" id="skinselector"><form><select onchange="changeskin(this.options[this.selectedIndex].value); window.location.reload();"><option class="sl"> Elección del Fondo </option><option class="sl" value="Opción 1"> Opción 1</option><option class="sl" value="Opción 2"> Opción 2</option><option class="sl" value="Opción 3"> Opción 3</option><option class="sl" value="Opción 4"> Opción 4</option><option class="sl" value="Opción 5"> Opción 5</option><option class="sl" value="Opción 6 A"> Opción 6 A</option><option class="sl" value="Opción 6 B"> Opción 6 B</option><option class="sl" value="Opción 7 A"> Opción 7 A</option><option class="sl" value="Opción 7 B"> Opción 7 B</option></select></form></div>');
+var scheme = getCookie('template1');
+if (scheme == 'Opción 1') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%201.css">');
+} else if (scheme == 'Opción 2') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%202.css">');
+} else if (scheme == 'Opción 3') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%203.css">');
+} else if (scheme == 'Opción 4') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%204.css">');
+} else if (scheme == 'Opción 5') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%205.css">');
+} else if (scheme == 'Opción 6 A') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%206.css">');
+} else if (scheme == 'Opción 7 A') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%207.css">');
+} else if (scheme == 'Opción 6 B') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%206B.css">');
+} else if (scheme == 'Opción 7 B') {
+document.write('<LINK REL="stylesheet" TYPE="text/css" HREF="http://www.fileden.com/files/2010/9/9/2965209/Opci%C3%B3n%207B.css">');
+} 
+
+function changeskin(change) {
+var scheme = change;
+var name = 'template1';
+var pathname = location.pathname;
+var myDomain = pathname.substring(0,pathname.lastIndexOf('/')) +'/';
+var ExpDate = new Date ();
+ExpDate.setTime(ExpDate.getTime() + (180 * 24 * 3600 * 1000));
+setCookie(name,scheme,ExpDate,myDomain);
+}
+function getCookie(name){
+var cname = name + "=";
+var dc = document.cookie;
+if (dc.length > 0) {
+begin = dc.indexOf(cname);
+if (begin != -1) {
+begin += cname.length;
+end = dc.indexOf(";", begin);
+if (end == -1) end = dc.length;
+return unescape(dc.substring(begin, end));
+}
+}
+return null;
+}
+
+function setCookie(name, value, expires, path, domain, secure) {
+document.cookie = name + "=" + escape(value) +
+((expires == null) ? "" : "; expires=" + expires.toGMTString()) +
+((path == null) ? "" : "; path=" + path) +
+((domain == null) ? "" : "; domain=" + domain) +
+((secure == null) ? "" : "; secure");
+}
