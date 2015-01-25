@@ -297,4 +297,18 @@ $('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014bro
 $('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014plata_zps06946797.png"]').attr('title', 'Segundo puesto - Lograr el 2º puesto en el Amigo Invisible 2014');
 
 $('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014oro_zpse130c6c7.png"]').attr('title', 'Primer puesto - Lograr el 1º puesto en el Amigo Invisible 2014');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentoparticipar_zps8ba45394.png"]').attr('title', 'Participación - Participar en "Cuentos Navideños"');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentobronce_zps514722f5.png"]').attr('title', 'Tercer puesto - Lograr el 3º puesto en Cuentos Navideños');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentoplata_zps71d8b011.png"]').attr('title', 'Segundo puesto - Lograr el 2º puesto en Cuentos Navideños');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentooro_zpse8eebe5a.png"]').attr('title', 'Primer puesto - Lograr el 1º puesto en Cuentos Navideños');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturabronce_zpsae2ff9a7.png"]').attr('title', 'Tercer puesto - Lograr el 3º puesto en Personajes Navideños');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaplata_zpsa8a34b6d.png"]').attr('title', 'Segundo puesto - Lograr el 2º puesto en Personajes Navideños');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaoro_zpsa2400614.png"]').attr('title', 'Primer puesto - Lograr el 1º puesto en Personajes Navideños');
 });
