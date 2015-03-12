@@ -237,7 +237,7 @@ $('img[src="http://i.imgur.com/OC3gZES.png"]').attr('title', 'Enamorado: Dar un 
 
 $('img[src="http://i.imgur.com/uR0R1UF.png"]').attr('title', 'Amante: Dar cinco regalos de San Besuquitos');
 
-$('img[src="http://i.imgur.com/m4BD0B6.png"]').attr('title', '¡Me alagas!: Recibir un regalo de San Besuquitos');
+$('img[src="http://i.imgur.com/m4BD0B6.png"]').attr('title', '¡Me halagas!: Recibir un regalo de San Besuquitos');
 
 $('img[src="http://i350.photobucket.com/albums/q409/juaner92/googlewebmaster32.png"]').attr('title', 'Desarrollador: Aportar algo propio y destacable en el subforo de Mods.');
 
@@ -277,8 +277,6 @@ $('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/2Con_
 
 $('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/1Con_zpsb7c9c410.png"]').attr('title', 'Primer puesto en Concurso Prehistórico');
 
--
-
 $('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/BrozoGif_zpsacd2d256.png"]').attr('title', 'Sim City Societies RIFA! - Participar del evento "Brozoween"');
 
 $('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/Esqueleto_zps09ab0ccc.jpg"]').attr('title', 'Hasta los Huesos - Ganar en categoría de esqueletos');
@@ -311,4 +309,12 @@ $('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturabro
 $('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaplata_zpsa8a34b6d.png"]').attr('title', 'Segundo puesto - Lograr el 2º puesto en Personajes Navideños');
 
 $('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaoro_zpsa2400614.png"]').attr('title', 'Primer puesto - Lograr el 1º puesto en Personajes Navideños');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/paralel_zpsae2d4577.png"]').attr('title', 'Cariñoso - Dar un regalo de San Abrazitos.');
+
+$('img[src="http://i.imgur.com/qIFeXNA.png"]').attr('title', 'Abrazador - Dar Cinco regalos de San Abrazitos.');
+
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/trofeoorow_zps1567b14b.png"]').attr('title', 'Apreciado - Recibir un regalo de San Abrazitos.');
+
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Beloved_BR_Blue_grande_zps2f3029ac.png"]').attr('title', '¡Te adoro! - Darle un regalo a Abrazitos');
 });
