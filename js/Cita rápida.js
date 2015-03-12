@@ -66,7 +66,7 @@ $(function() {
                     padre = padre.parentNode;
                 }
                 var autor = $(".author a", $(auxThis).closest(".postbody")).text();
-                $('#text_editor_textarea').sceditor("instance").insertText('[quote="' + autor + '"]' + contenido + '[/quote]');
+                $('#text_editor_textarea').sceditor("instance").insertText('[quote="' + autor + '"]' + contenido + '[/quote]\n');
                 location.hash = "#";
                 location.hash = "#" + auxThis.parentNode.href.split("/post?p=")[1].split("&mode=quote")[0];
                 $(auxThis).attr("src", "http://i.imgur.com/lPorVBd.png");
