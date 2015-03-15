@@ -39,16 +39,9 @@ $(function() {$(function() {
         }
     };
 
-    //Click en número de notificaciones (http://illiweb.com/rsc/86/frm/jquery/toolbar/FAToolbar.js)
+    //Click en número de notificaciones
     $("#notif_unread").click(function() {
-        if ($('#fa_right').toggleClass('notification').hasClass('notification')) {
-            $('.ellipsis').dotdotdot();
-            if (!FA.Notification.registered()) {
-                FA.Notification.register();
-            }
-        } else {
-            FA.Notification.markAsRead();
-        }
+            $("#fa_notifications").click();
     });
 
 })});
