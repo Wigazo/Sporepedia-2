@@ -1,3 +1,17 @@
+/*ChatBox con avatares*/
+#chatbox .cb-avatar {
+	background: none !important; /*Fondo transparente*/
+}
+#chatbox .date-and-time {
+	float: initial !important;  /*Hora a la izquierda*/
+}
+#chatbox .user, #chatbox .msg {
+	display: initial !important;  /*Autor y mensaje en misma línea*/
+}
+#chatbox > p {
+	border-bottom: 0px !important; /*Sin línea divisora*/
+}
+
 /*Toolbar*/
 body#phpbb {
 	position: relative !important;
