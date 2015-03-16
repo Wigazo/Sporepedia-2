@@ -5,8 +5,8 @@
 #chatbox .date-and-time {
 	float: initial !important;  /*Hora a la izquierda*/
 }
-#chatbox .user, #chatbox .msg {
-	display: initial !important;  /*Autor y mensaje en misma línea*/
+#chatbox .user {
+	display: initial !important;  /*Hora y autor en misma línea*/
 }
 #chatbox > p {
 	border-bottom: 0px !important; /*Sin línea divisora*/
