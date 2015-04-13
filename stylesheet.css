@@ -1,3 +1,13 @@
+/*Redimensionar im√°genes y flash en el chat (no afecta dentro de spoiler)*/
+#chatbox .msg img, #chatbox .msg embed {
+    max-width: 100%;
+    max-height: 128px;
+}
+/*Romper palabras lagras en el chat*/
+#chatbox .msg {
+    word-wrap: break-word;
+}
+
 /*Toolbar*/
 body#phpbb {
 	position: relative !important;
@@ -82,7 +92,7 @@ body#phpbb {
   background: url(http://img837.imageshack.us/img837/294/cruzspore.png) no-repeat !important;
 }
 
-/*TamaÒo B˙squeda*/
+/*Tama√±o B√∫squeda*/
 div#my_gs {
     	width: 300px;
 	height: 30px;
@@ -100,7 +110,7 @@ div#my_gs {
 
 /*Editor de texto*/
 div#textarea_content {
-    width: 77% !important; /*tamaÒo del editor*/
+    width: 77% !important; /*tama√±o del editor*/
 }
 
 .sceditor-container{
@@ -137,7 +147,7 @@ div.post.online.pmrs2, div.post.pmrs2 {
   background-repeat: repeat;
 }
 
-/*Color post El SeÒor de los  Dadillos*/
+/*Color post El Se√±or de los  Dadillos*/
 div.post.online.cdadillos, div.post.cdadillos {
   background-color: #402d31;
 }
@@ -149,7 +159,7 @@ div.post.online.cdadillos, div.post.cdadillos {
   max-height:200px;
 }
 
-/*Avatares en el Õndice*/
+/*Avatares en el √çndice*/
 .mini_ava {
   float: left; /*Borrar*/
   padding: 0px;
@@ -246,7 +256,7 @@ p.right {
 	text-align: center;
 }  
 
-/*Pop Up ConexiÛn*/
+/*Pop Up Conexi√≥n*/
 #login_popup {
 	background-image:url("http://i76.servimg.com/u/f76/15/34/08/13/pop_up10.png");
   	padding: 0;
@@ -371,7 +381,7 @@ background-position: 14px 2px;
 
 
 
-/*Lupa b˙squeda*/
+/*Lupa b√∫squeda*/
 input.search {
    background-image: url('http://img402.imageshack.us/img402/9041/lupa.png');
    background-repeat: no-repeat;
