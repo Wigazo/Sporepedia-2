@@ -1,4 +1,4 @@
-//PosiciÛn: En todas las p·ginas
+//Posici√≥n: En todas las p√°ginas
 $(function(){var banner = new Array();
 
 banner[0]='http://i.imgur.com/zEBUQsu.png';
@@ -148,6 +148,7 @@ banner[143]='http://i.imgur.com/nXE1pz0.png';
 banner[144]='http://i.imgur.com/NkHrojf.png';
 banner[145]='http://i.imgur.com/I4xdYXV.png';
 banner[146]='http://i.imgur.com/rZDavPf.png';
+banner[147]='http://i.imgur.com/Yu0LbMf.png';
 
 document.getElementById('logo').firstChild.src= banner[Math.floor(Math.random()*banner.length)];
 });
