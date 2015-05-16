@@ -1,6 +1,6 @@
 //Posición: En el indice
 //BORRAR
-//EN LA LINEA 155 FALTA LA CONVER
+//EN LA LINEA 155 FALTA LA CONVER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 var script = document.createElement('script');
 script.src = 'http://code.jquery.com/ui/1.11.2/jquery-ui.min.js';
 script.type = 'text/javascript';
@@ -855,7 +855,7 @@ $(document).ready(function() {
 		"a": "DigiDSoul",
 		"e": "Comentario de Digi al saber que se <a href= 'http://www.sporepedia2.com/t10493-el-sporn-en-el-foro'>censuraría el Sporn</a> en el foro, incluyendo el regalito de Arwen."
 	}, {
-		"f": "Cosas japonesas... <img src='Cuando comienzan a hablar en japonés o de temas otakus, Mx3 suele reaccionar de esa manera.'>",
+		"f": "Cosas japonesas... <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1149863413.png'>",
 		"a": "Mx3brainpower",
 		"e": "Cuando comenzaban a hablar en japonés o de temas otakus, Mx3 solía reaccionar de esa manera."
 	}, {
