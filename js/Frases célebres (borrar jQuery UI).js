@@ -16,7 +16,7 @@ $(document).ready(function() {
 	//Las comillas dentro de las frases y explicaciones se ponen así: \"
 	//Varias frases en una van separadas con: \",\"  (ver la primer frase como ejemplo)
 	//Los saltos de línea ("enter") se señalan así: <br> (ver sexta frase como ejemplo)
-	//BBCodes, smilies, {USERNAME} (y otros) no sirven, es todo en HTML
+	//BBCodes, smilies, {USERNAME} (y otros) no sirven, es todo en HTML - AHORA {USERNAME} se reemplaza por el nick, pero solo en las frases, no en las explicaciones
 	//f: frase, a: autor, e: explicación
 	var frases = [{
         "f": "es solo un FORO!!!!!!!!!!!!!\",\"FORODOFORORODFOFOROFOROF",
@@ -1075,7 +1075,7 @@ $(document).ready(function() {
 		"a": "Ajo",
 		"e": "Parte de una <a href= 'http://www.sporepedia2.com/t12727p16-me-voy-creo-que-para-siempre#246861'>épica respuesta</a> de Ajo a Bato."
 	}, {
-		"f": "Todos pueden encontrar amistades en la S2 <img src='http://illiweb.com/fa/i/smiles/icon_wink.gif'>, hasta Bato <img src='http://illiweb.com/fa/i/smiles/icon_wink.gif'>",
+		"f": "Todos pueden encontrar amistades en la S2 <img src='http://illiweb.com/fa/i/smiles/icon_wink.gif'>, hasta Bato <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1889348728.png'> .",
 		"a": "Mx3brainpower",
 		"e": "Mx3 lo dijo para <a href= 'http://www.sporepedia2.com/t12727-me-voy-creo-que-para-siempre#246780'>calmar a Santi</a> y, de paso, burlarse de Bato."
 	}, {
@@ -1135,7 +1135,7 @@ $(document).ready(function() {
 	var fraseRandom = Math.floor(Math.random() * frases.length);
 	$("#frase-celebre").html('<i>"' + frases[fraseRandom].f + '"</i> - ' + frases[fraseRandom].a);
 	$("#frase-celebre").click(function() {
-		$('<p title="Explicación de la frase"><strong>' + $("#frase-celebre").html() + '</strong><br>' + frases[fraseRandom].e + '</p>').dialog({
+		$('<p title="Explicación de la frase"><strong>' + $("#frase-celebre").html().replace("{USERNAME}", _userdata["username"]) + '</strong><br>' + frases[fraseRandom].e + '</p>').dialog({
 			width: 500,
 			draggable: true
 		});
