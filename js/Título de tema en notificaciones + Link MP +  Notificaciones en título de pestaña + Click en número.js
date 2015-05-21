@@ -1,23 +1,23 @@
-//Posición: En todas las páginas
+//PosiciÃ³n: En todas las pÃ¡ginas
 $(function() {$(function() {
 
     if (typeof(compileNotif) != "function" || typeof(refresh) != "function") return;
     var cn = compileNotif;
     Toolbar.compileNotif = compileNotif = function(b) {
         var a = cn(b);
-        //Título de tema
+        //TÃ­tulo de tema
         if (b.text.type == FA.Notification.NOTIF_TOPIC_WATCH || b.text.type == FA.Notification.NOTIF_MENTION) {
             if (b.text.type == FA.Notification.NOTIF_TOPIC_WATCH) {
                 var textoViejo = 'un tema que estas vigilando';
             } else {
                 var textoViejo = 'un mensaje';
             }
-            var titulo = $("#widget-ultimos-temas > .inner > a[href^='/t" + b.text.post.topic_id + "']").html();
+            var titulo = $("#widget-ultimos-temas > .inner > #comments_scroll_div > a[href^='/t" + b.text.post.topic_id + "']").html();
             if (typeof(titulo) != "string") {
                 titulo = b.text.post.topic_name.replace(/-/g, " ");
             }
             a = a.replace(textoViejo, titulo);
-            //Corección menciones: "en" dentro del link
+            //CorecciÃ³n menciones: "en" dentro del link
             a = a.replace("en " + titulo, titulo);
             a = a.replace(" te ha mencionado ", " te ha mencionado en ");
         }
@@ -28,7 +28,7 @@ $(function() {$(function() {
         return a;
     };
 
-    //Número de notificaciones en título de la pestaña
+    //NÃºmero de notificaciones en tÃ­tulo de la pestaÃ±a
     var r = refresh;
     Toolbar.refresh = refresh = function(o) {
         r(o);
@@ -39,9 +39,9 @@ $(function() {$(function() {
         }
     };
 
-    //Click en número de notificaciones
+    //Click en nÃºmero de notificaciones
     $("#notif_unread").click(function() {
-            $("#fa_notifications").click();
+        $("#fa_notifications").click();
     });
 
 })});
