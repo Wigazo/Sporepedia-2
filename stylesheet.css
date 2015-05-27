@@ -1,4 +1,4 @@
-/*Redimensionar imágenes y flash en el chat (no afecta dentro de spoiler)*/
+﻿/*Redimensionar imágenes y flash en el chat (no afecta dentro de spoiler)*/
 #chatbox .msg img, #chatbox .msg embed {
     max-width: 100%;
     max-height: 128px;
@@ -6,6 +6,21 @@
 /*Romper palabras lagras en el chat*/
 #chatbox .msg {
     word-wrap: break-word;
+}
+
+
+/*ChatBox con avatares*/
+#chatbox .cb-avatar {
+	background: none !important; /*Fondo transparente*/
+}
+#chatbox .date-and-time {
+	float: initial !important;  /*Hora a la izquierda*/
+}
+#chatbox .user {
+	display: initial !important;  /*Hora y autor en misma línea*/
+}
+#chatbox > p {
+	border-bottom: 0px !important; /*Sin línea divisora*/
 }
 
 /*Toolbar*/
