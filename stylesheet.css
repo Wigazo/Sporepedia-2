@@ -1,4 +1,9 @@
-﻿/*Redimensionar imágenes y flash en el chat (no afecta dentro de spoiler)*/
+﻿/*Hacer que el viejo método para la fuente de Sporedom funcione*/
+span.Sporedom{
+  font-family: Sporedom;
+}
+
+/*Redimensionar imágenes y flash en el chat (no afecta dentro de spoiler)*/
 #chatbox .msg img, #chatbox .msg embed {
     max-width: 100%;
     max-height: 128px;
