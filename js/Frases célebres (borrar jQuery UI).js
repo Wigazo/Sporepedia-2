@@ -1133,9 +1133,9 @@ $(document).ready(function() {
 	}];
 
 	var fraseRandom = Math.floor(Math.random() * frases.length);
-	$("#frase-celebre").html('<i>"' + frases[fraseRandom].f + '"</i> - ' + frases[fraseRandom].a);
+	$("#frase-celebre").html('<i>"' + frases[fraseRandom].f.replace("{USERNAME}", _userdata["username"]) + '"</i> - ' + frases[fraseRandom].a);
 	$("#frase-celebre").click(function() {
-		$('<p title="Explicación de la frase"><strong>' + $("#frase-celebre").html().replace("{USERNAME}", _userdata["username"]) + '</strong><br>' + frases[fraseRandom].e + '</p>').dialog({
+		$('<p title="Explicación de la frase"><strong>' + $("#frase-celebre").html() + '</strong><br>' + frases[fraseRandom].e + '</p>').dialog({
 			width: 500,
 			draggable: true
 		});
