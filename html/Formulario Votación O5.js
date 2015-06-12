@@ -43,17 +43,9 @@
                                 "nick": "Alegorn",
                                 "url": "http://www.sporepedia2.com/t17755-agua-para-el-sediento-o5#344817"
                             }, {
-                                "img": "http://i1294.photobucket.com/albums/b603/MrSouls/Imagenes%20SPORE/Spore_17-05-2015_17-11-52_zpstbgpb8rr.png",
-                                "nick": "Cubetastic Souls",
-                                "url": "http://www.sporepedia2.com/t17756-heist-i-o5"
-                            }, {
                                 "img": "https://misionxspore.files.wordpress.com/2015/05/spore_23-05-2015_17-50-42.png",
                                 "nick": "MisiónXSpore",
                                 "url": "http://www.sporepedia2.com/t17762-senal-en-el-quer-o5"
-                            }, {
-                                "img": "http://i.imgur.com/x90LdHd.png",
-                                "nick": "SrGaliಠth",
-                                "url": "http://www.sporepedia2.com/t17761-el-quiere-salir-o5"
                             }]
                         }, {
                             "categoria": "Criatura",
@@ -114,10 +106,6 @@
                                 "nick": "linkplay",
                                 "url": "http://www.sporepedia2.com/t17639-carnibulo-o5#343776"
                             }, {
-                                "img": "http://i.imgur.com/0xErk0h.png",
-                                "nick": "SrGaliಠth",
-                                "url": "http://www.sporepedia2.com/t17640-nidogh-el-carronero-errante-o5#343786"
-                            }, {
                                 "img": "http://i1301.photobucket.com/albums/ag111/SheridanStar/Spore/Originals/Double%20Team.png",
                                 "nick": "CarrotCube",
                                 "url": "http://www.sporepedia2.com/t17642-double-team-o5#343795"
@@ -141,18 +129,10 @@
                                 "img": "http://i1344.photobucket.com/albums/p642/SartekChaos/Crisolitus%20el%20acechador_zpslcbc1j7z.png",
                                 "nick": "SartekChaos",
                                 "url": "http://www.sporepedia2.com/t17753-crisolitus-el-acechador-o5"
-                            }, {
-                                "img": "http://i1294.photobucket.com/albums/b603/MrSouls/Creaciones%20SPORE/Drialua_zpst2cm8xhn.png",
-                                "nick": "Cubetastic Souls",
-                                "url": "http://www.sporepedia2.com/t17765-drialua-o5"
                             }]
                         }, {
                             "categoria": "Capitán",
                             "creaciones": [{
-                                "img": "http://i48.photobucket.com/albums/f231/juan102/The%20S4urus_zpsbf9vernx.png",
-                                "nick": "Metacheto",
-                                "url": "http://www.sporepedia2.com/t17232-the-s4urus-o5-c"
-                            }, {
                                 "img": "http://i1269.photobucket.com/albums/jj590/Rayzpook/The%20Goldenbun_zpsermseq7a.png",
                                 "nick": "Cocoa",
                                 "url": "http://www.sporepedia2.com/t17234-the-goldenbun-o5-c"
@@ -229,10 +209,6 @@
                                 "nick": "SartekChaos",
                                 "url": "http://www.sporepedia2.com/t17751-zelote-protoss-o5-c"
                             }, {
-                                "img": "http://i1294.photobucket.com/albums/b603/MrSouls/Creaciones%20SPORE/Prototipo%20XR346_zps0mcqpkoj.png",
-                                "nick": "Cubetastic Souls",
-                                "url": "http://www.sporepedia2.com/t17766-prototipo-xr346-o5-c#344862"
-                            }, {
                                 "img": "http://i32.photobucket.com/albums/d24/AlochGamer/Imagenes/Tale%203_zps0ldenbbd.png",
                                 "nick": "ElAloch",
                                 "url": "http://www.sporepedia2.com/t17768-tale-o5-c"
@@ -268,10 +244,6 @@
                                 "nick": "Cocoa",
                                 "url": "http://www.sporepedia2.com/t17237-pershot-d-o5-i"
                             }, {
-                                "img": "http://i48.photobucket.com/albums/f231/juan102/Sightouml_zpsjfeyk2iv.png",
-                                "nick": "Metacheto",
-                                "url": "http://www.sporepedia2.com/t17239-sight-o-o5-i"
-                            }, {
                                 "img": "http://i1347.photobucket.com/albums/p703/RhineGuapo/Creaciones/Lalo_zpse73ca9d0.png",
                                 "nick": "Rhinestone",
                                 "url": "http://www.sporepedia2.com/t17253-lalo-o5-i"
@@ -284,7 +256,7 @@
                                 "nick": "Lechuza",
                                 "url": "http://www.sporepedia2.com/t17251-bindaw-o5-i"
                             }, {
-                                "img": "http://i.imgur.com/6TAEJGY.png",
+                                "img": "http://i.imgur.com/oG0fx0J.png",
                                 "nick": "fhenix_91",
                                 "url": "http://www.sporepedia2.com/t17247-brus-o5-i"
                             }, {
@@ -295,10 +267,6 @@
                                 "img": "http://i1294.photobucket.com/albums/b603/MrSouls/Creaciones%20SPORE/Salamteado_zpstw4fxigu.png",
                                 "nick": "Cubetastic Souls",
                                 "url": "http://www.sporepedia2.com/t17614-salamteado-o5-i"
-                            }, {
-                                "img": "http://i.imgur.com/Cw2PYBp.png",
-                                "nick": "Mr. Hovs",
-                                "url": "http://www.sporepedia2.com/t17581-ahervean-o5-i"
                             }, {
                                 "img": "https://misionxspore.files.wordpress.com/2015/03/oman.png",
                                 "nick": "MisiónXSpore",
@@ -311,10 +279,6 @@
                                 "img": "http://i.gyazo.com/e57ec148404917394abde043e133408d.png",
                                 "nick": "Glumyglu",
                                 "url": "http://www.sporepedia2.com/t17657-foca-cangrejo-i-o5"
-                            }, {
-                                "img": "http://i40.photobucket.com/albums/e201/Anhaelis/Myria%204_zpsoi71xxxx.png",
-                                "nick": "Anhaelis [RDLA]",
-                                "url": "http://www.sporepedia2.com/t17488-myria-o5-i"
                             }, {
                                 "img": "http://i1292.photobucket.com/albums/b571/Jjuanes_Pixeled/Dareewas_zpshmq0gur2.png",
                                 "nick": "DeckPepsi",
@@ -355,10 +319,6 @@
                                 "nick": "Cocoa",
                                 "url": "http://www.sporepedia2.com/t17328-deluxe-mousine-o5-t"
                             }, {
-                                "img": "http://i.imgur.com/m7PWbKV.png",
-                                "nick": "ChяφnStrคx",
-                                "url": "http://www.sporepedia2.com/t17252-shiguleh-teh-o5-t"
-                            }, {
                                 "img": "http://i.imgur.com/pZ1461t.png",
                                 "nick": "DaALTF4!",
                                 "url": "http://www.sporepedia2.com/t17365-carrito-alegorico-haciendo-referencia-a-los-grox-o5-t"
@@ -390,10 +350,6 @@
                                 "img": "http://i.imgur.com/SqwGs8c.png",
                                 "nick": "SrGaliಠth",
                                 "url": "http://www.sporepedia2.com/t17559-jack-in-the-box-o5-t"
-                            }, {
-                                "img": "http://i.imgur.com/0meNnr1.png",
-                                "nick": "Mr. Hovs",
-                                "url": "http://www.sporepedia2.com/t17586-von-cyth-o5-t"
                             }, {
                                 "img": "http://i.imgur.com/ERb5e81.png",
                                 "nick": "Dororo",
@@ -434,10 +390,6 @@
                                 "nick": "Metacheto",
                                 "url": "http://www.sporepedia2.com/t17382-lancha-cybershark-o5-m"
                             }, {
-                                "img": "http://i.imgur.com/zH4dKwL.png",
-                                "nick": "fhenix_91",
-                                "url": "http://www.sporepedia2.com/t17399-argan-el-destructor-o5-m"
-                            }, {
                                 "img": "https://misionxspore.files.wordpress.com/2015/03/carguero.png",
                                 "nick": "MisiónXSpore",
                                 "url": "http://www.sporepedia2.com/t17417-carguero-o5-m"
@@ -461,10 +413,6 @@
                                 "img": "http://i.imgur.com/JBq2rZS.png",
                                 "nick": "SrGaliಠth",
                                 "url": "http://www.sporepedia2.com/t17735-jormungander-la-espia-maritima-o5-m"
-                            }, {
-                                "img": "http://i.imgur.com/KJ9EqpR.png",
-                                "nick": "Ezkisito",
-                                "url": "http://www.sporepedia2.com/t17747-fragata-fbsn-1-clase-zavroza-o5-m#344766"
                             }]
                         }, {
                             "categoria": "Vehículo Aéreo",
@@ -476,10 +424,6 @@
                                 "img": "http://i1269.photobucket.com/albums/jj590/Rayzpook/Molusco%20Aereo_zpss44w4fha.png",
                                 "nick": "Cocoa",
                                 "url": "http://www.sporepedia2.com/t17329-molusco-aereo-o5-a"
-                            }, {
-                                "img": "http://i.imgur.com/9UIwcv1.png",
-                                "nick": "fhenix_91",
-                                "url": "http://www.sporepedia2.com/t17340-harpia-o5-a"
                             }, {
                                 "img": "http://i1347.photobucket.com/albums/p703/RhineGuapo/Creaciones/Sonorum_zps8b16d585.png",
                                 "nick": "Rhinestone",
@@ -496,10 +440,6 @@
                                 "img": "https://misionxspore.files.wordpress.com/2015/03/atacante-de-hojalata.png",
                                 "nick": "MisiónXSpore",
                                 "url": "http://www.sporepedia2.com/t17415-atacante-de-hojalata-o5-a"
-                            }, {
-                                "img": "http://i.imgur.com/v6VRPaC.png",
-                                "nick": "Ezkisito",
-                                "url": "http://www.sporepedia2.com/t17450-fma-47-caza-polivalente-o5-a"
                             }, {
                                 "img": "http://i.imgur.com/rD0fcnn.png",
                                 "nick": "linkplay",
@@ -532,10 +472,6 @@
                         }, {
                             "categoria": "Nave Espacial",
                             "creaciones": [{
-                                "img": "http://static.spore.com/static/thumb/501/008/710/501008710613.png",
-                                "nick": "dekarserverbot",
-                                "url": "http://www.sporepedia2.com/t17275-proyecto-prometeo-y-no-lo-cumpleoo5"
-                            }, {
                                 "img": "http://i1347.photobucket.com/albums/p703/RhineGuapo/Creaciones/La%20Raya_zpstr4uiiox.png",
                                 "nick": "Rhinestone",
                                 "url": "http://www.sporepedia2.com/t17341-la-raya-o5"
@@ -559,10 +495,6 @@
                                 "img": "http://i48.photobucket.com/albums/f231/juan102/The%20Lapse_zpsdeim5xk0.png",
                                 "nick": "Metacheto",
                                 "url": "http://www.sporepedia2.com/t17384-the-lapse-o5"
-                            }, {
-                                "img": "http://i.imgur.com/5O5sSjB.png",
-                                "nick": "fhenix_91",
-                                "url": "http://www.sporepedia2.com/t17627-imperion-o5"
                             }, {
                                 "img": "http://i1301.photobucket.com/albums/ag111/SheridanStar/Spore/Originals/UFOS/Space%20Ship.png",
                                 "nick": "CarrotCube",
@@ -619,10 +551,6 @@
                                 "nick": "DaALTF4!",
                                 "url": "http://www.sporepedia2.com/t17367-fabrica-chocolatera-o5"
                             }, {
-                                "img": "http://i1347.photobucket.com/albums/p703/RhineGuapo/Creaciones/GuaridadeMx3_zpsc90e3736.png",
-                                "nick": "Rhinestone",
-                                "url": "http://www.sporepedia2.com/t17374-guarida-de-mx3-o5"
-                            }, {
                                 "img": "http://i48.photobucket.com/albums/f231/juan102/Castillo%20del%20Baron%20Von%20Maskleuf_zpsv9qho4zg.png",
                                 "nick": "Metacheto",
                                 "url": "http://www.sporepedia2.com/t17380-castillo-del-baron-von-maskleuf-o5"
@@ -650,10 +578,6 @@
                                 "img": "http://i.imgur.com/Ke64avL.png",
                                 "nick": "Miguelcho",
                                 "url": "http://www.sporepedia2.com/t17494-canio-o5"
-                            }, {
-                                "img": "http://i1288.photobucket.com/albums/b486/Alegorn6/Taberna%20de%20la%20Plaza_zpso5csf6nc.png",
-                                "nick": "Alegorn",
-                                "url": "http://www.sporepedia2.com/t17664-taberna-de-la-plaza-o5#344039"
                             }, {
                                 "img": "http://i1310.photobucket.com/albums/s646/Pandipan1999/La%20Copa_zpszwnek2jx.png",
                                 "nick": "Pandipan1999",
@@ -698,10 +622,6 @@
                                 "nick": "MisiónXSpore",
                                 "url": "http://www.sporepedia2.com/t17651-tema-de-aanimations-o5-advertencia-de-cutre"
                             }, {
-                                "img": "http://i1288.photobucket.com/albums/b486/Alegorn6/1-Next%20to%20you_zpsqsghhmqq.png",
-                                "nick": "Alegorn",
-                                "url": "http://www.sporepedia2.com/t17655-next-to-you-parasyte-o5#343947"
-                            }, {
                                 "img": "http://i1310.photobucket.com/albums/s646/Pandipan1999/Musica%20de%20Fondo_zpshs8rgepb.png",
                                 "nick": "Pandipan1999",
                                 "url": "http://www.sporepedia2.com/t17696-musica-de-fondo-o5"
@@ -713,10 +633,6 @@
                                 "img": "http://imgur.com/fmB4Yyj.png",
                                 "nick": "SrGaliಠth",
                                 "url": "http://www.sporepedia2.com/t17757-intento-de-unicorn-zombie-apocalypse-o5"
-                            }, {
-                                "img": "http://i1294.photobucket.com/albums/b603/MrSouls/Creaciones%20SPORE/Thelody_zps6eslogob.png",
-                                "nick": "Cubetastic Souls",
-                                "url": "http://www.sporepedia2.com/t17758-thelody-o5"
                             }]
                         }, {
                             "categoria": "Template Homenaje",
@@ -733,17 +649,9 @@
                                 "nick": "Rhinestone",
                                 "url": "http://www.sporepedia2.com/t17344-caperonni-o5-t"
                             }, {
-                                "img": "http://i48.photobucket.com/albums/f231/juan102/Guardian%20de%20Gemas%20Crhon_zpszeewbv82.png",
-                                "nick": "Metacheto",
-                                "url": "http://www.sporepedia2.com/t17294-guardian-de-gemas-crh-on-o5-t"
-                            }, {
                                 "img": "http://i578.photobucket.com/albums/ss228/AkiraHyuga/Template%20de%20Xhaps%20modificado.png",
                                 "nick": "FlairDreamer",
                                 "url": "http://www.sporepedia2.com/t17343-homenaje-al-template-mista-o5-t"
-                            }, {
-                                "img": "http://i1294.photobucket.com/albums/b603/MrSouls/Creaciones%20SPORE/Caminante%20de%20la%20cienaga_zps7jesj9ct.png",
-                                "nick": "Cubetastic Souls",
-                                "url": "http://www.sporepedia2.com/t17271-caminante-de-la-cienaga-o5-t"
                             }, {
                                 "img": "http://i.imgur.com/wgsZnAI.png",
                                 "nick": "fhenix_91",
