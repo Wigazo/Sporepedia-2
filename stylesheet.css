@@ -27,6 +27,13 @@ span.Sporedom{
 #chatbox > p {
 	border-bottom: 0px !important; /*Sin línea divisora*/
 }
+/*Chatbox sin avatares*/
+#chatbox.noAv span.cb-avatar{
+ display: none !important; 
+} 
+#chatbox.noAv span.msg{
+ display: initial !important; 
+} 
 
 /*Toolbar*/
 body#phpbb {
