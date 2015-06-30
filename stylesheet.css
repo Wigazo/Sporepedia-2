@@ -1,4 +1,13 @@
-﻿/*Hacer que el viejo método para la fuente de Sporedom funcione*/
+/*Chatbox: Usuarios color hipervinculo*/
+#chatbox_members span[style^="color:"]:hover, span.user:hover{
+    color: #fff;
+    cursor: pointer;
+}
+#chatbox_members span[style^="color:"], span.user {
+    color: #03b2ed;
+}
+
+/*Hacer que el viejo método para la fuente de Sporedom funcione*/
 span.Sporedom{
   font-family: Sporedom;
 }
