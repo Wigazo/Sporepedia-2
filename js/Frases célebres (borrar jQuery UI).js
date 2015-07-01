@@ -61,7 +61,7 @@ $(document).ready(function() {
 	}, {
 		"f": "...",
 		"a": "Lirianer",
-		"e": "Esta \"frase\" es una muy usada en todos lados. Wigazo la vio por primera vez en una pelea una de las primeras veces que entró al chat. Elite le estaba retando a Lirianer por haberle llamado LOCA a sus espaldas, y Liri se limitaba a sólo responder con dicha \"frase\". Wig también la empecé a usar, y Liri le decía plagiador por eso. Pero es algo que se usa mucho en todos lados y, además, se te pegaba mucho cuando el otro la usa tanto."
+		"e": "Esta \"frase\" es una muy usada en todos lados. Wigazo la vio por primera vez en una pelea una de las primeras veces que entró al chat. Elite le estaba retando a Lirianer por haberle llamado LOCA a sus espaldas, y Liri se limitaba a sólo responder con dicha \"frase\". Wig también la empezó a usar, y Liri le decía plagiador por eso. Pero es algo que se usa mucho en todos lados y, además, se te pegaba mucho cuando el otro la usa tanto."
 	}, {
 		"f": "EXACTO",
 		"a": "LightClaudio",
