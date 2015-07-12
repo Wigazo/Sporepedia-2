@@ -1,0 +1,16 @@
+<!--
+    Título: Imgur OAuth
+    ¿Deseas utilizar la parte alta y la parte baja de la página de tu foro? No
+    ¿Utilizar esta página como índice? No
+-->
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<script>
+if (document.location.hash.indexOf("access_token") != -1) {
+    localStorage.refresh_token = document.location.hash.split("refresh_token=")[1].split("&")[0];
+    opener.subirImagenes(document.location.hash.split("access_token=")[1].split("&")[0]);
+} else {
+    opener.alert("Ya que no autorizó la aplicación 'Sporepedia 2 Imgur Uploader', las imágenes se subirán anónimamente.");
+    opener.subirImagenes();
+}
+window.close();
+</script>

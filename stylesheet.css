@@ -1,3 +1,12 @@
+/*Imgur uploader*/
+#text_editor_textarea + * textarea.dropZone { 
+  border: 3px dashed #999; !important; 
+  background-color: #232323 !important;
+}
+#text_editor_textarea + * textarea.dropZone.cuenta { 
+  border-color: #85BF25 !important;
+}
+
 /*Chatbox: Usuarios color hipervinculo*/
 #chatbox_members span[style^="color:"]:hover, span.user:hover{
     color: #fff;
