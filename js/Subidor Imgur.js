@@ -23,12 +23,33 @@ $(document).ready(function() { $(document).ready(function() {
 					xhr.setRequestHeader('Authorization', typeof(access_token) != "undefined" ? 'Bearer ' + access_token : 'Client-ID 2800bab5227ab24'); 
 					xhr.onreadystatechange = function() {
 						if (xhr.readyState == 4 && xhr.status == 200) {
-							$('#text_editor_textarea').sceditor("instance").insertText("[img]" + JSON.parse(xhr.responseText).data.link + "[/img]");
+							if (!dataImgs.album) {
+								$('#text_editor_textarea').sceditor("instance").insertText("[img]" + JSON.parse(xhr.responseText).data.link + "[/img]");
+							} else {
+								dataImgs.album += ","+JSON.parse(xhr.responseText).data.id;
+							}
 							if (subidasImgs()+1 < dataImgs.length) {
 								$("#imgurPB-label").text(subidasImgs()+1 + "/" + dataImgs.length);
 								$("#imgurPB-hecho").css("width", + subidasImgs() / dataImgs.length * 100 + "%");
 							} else {
-								$("#imgurPB").remove();
+								if (!dataImgs.album) {
+									$("#imgurPB").remove();
+								} else {
+									$("#imgurPB-label").text(subidasImgs()+1 + "/" + dataImgs.length);
+									$("#imgurPB-hecho").css("width", + subidasImgs() / dataImgs.length * 100 + "%");
+									var data2 = new FormData();
+									data2.append('ids', dataImgs.album.split("true,")[1]);
+									var xhr2 = new XMLHttpRequest();
+									xhr2.open('POST', 'https://api.imgur.com/3/album');
+									xhr2.setRequestHeader('Authorization', 'Client-ID 2800bab5227ab24');
+									xhr2.onreadystatechange = function() {
+										if (xhr2.readyState == 4 && xhr2.status == 200) {
+											$('#text_editor_textarea').sceditor("instance").insertText('<iframe class="imgur-album" width="100%" height="550" frameborder="0" src="//imgur.com/a/' + JSON.parse(xhr2.responseText).data.id + '/embed"></iframe>');
+											$("#imgurPB").remove();
+										}
+									};
+									xhr2.send(data2);
+								}
 							}
 						}
 					};
@@ -64,6 +85,11 @@ $(document).ready(function() { $(document).ready(function() {
                     }
                 }
 				if (dataImgs.length) {
+					if (e.shiftKey) {
+						dataImgs.album = true;
+					} else {
+						dataImgs.album = false;
+					}
 					if (!localStorage.refresh_token) {
 						if (!e.ctrlKey){
 							subirImagenes();
@@ -107,6 +133,11 @@ $(document).ready(function() { $(document).ready(function() {
 						} else {
 							dropZone.removeClass("cuenta");
 						}
+						if (e.shiftKey) {
+							dropZone.addClass("album");
+						} else {
+							dropZone.removeClass("album");
+						}
                         break;
                     }
                 }
@@ -116,6 +147,7 @@ $(document).ready(function() { $(document).ready(function() {
         var esconderDropZone = function() {
             dropZone.removeClass("dropZone");
             dropZone.removeClass("cuenta");
+            dropZone.removeClass("album");
         };
 		
         var dropZone = $('#text_editor_textarea + * textarea');
