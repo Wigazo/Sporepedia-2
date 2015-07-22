@@ -74,10 +74,10 @@ $(document).ready(function() { $(document).ready(function() {
 		};
 
 		var procesarDrop = function(e) {
-			esconderDropZone();
-            e.stopPropagation();
-            e.preventDefault();
-            if (e.dataTransfer.files) {	
+            if (e.dataTransfer.files.length) {	
+				esconderDropZone();
+				e.stopPropagation();
+				e.preventDefault();
 				window.dataImgs = new Array();
                 for (var i = 0; i < e.dataTransfer.files.length; i++) {
                     if (e.dataTransfer.files[i].type.match("image.*")) {
@@ -122,11 +122,11 @@ $(document).ready(function() { $(document).ready(function() {
 		};
 		
         var resaltarDropZone = function(e) {
-            e.stopPropagation();
-            e.preventDefault();
             if (e.dataTransfer.types) {
                 for (var i = 0; i < e.dataTransfer.types.length; i++) {
                     if (e.dataTransfer.types[i] == "Files") {
+                        e.stopPropagation();
+                        e.preventDefault();
                         dropZone.addClass("dropZone");
 						if (localStorage.refresh_token || e.ctrlKey) {
 							dropZone.addClass("cuenta");
