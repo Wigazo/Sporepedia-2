@@ -211,7 +211,7 @@ div.post.online.cdadillos, div.post.cdadillos {
 
 
 /*Redimensionar avatares*/
-.postprofile img, dl.mod-login-avatar > dt > img, #profile-advanced-right img{
+.postprofile img, dl.mod-login-avatar > dt > img, #profile-advanced-right img, #ucp > div > div > fieldset > dl:nth-child(1) > dd > img {
   max-width:100%;
   max-height:200px;
 }
