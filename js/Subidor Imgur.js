@@ -7,7 +7,7 @@ $(document).ready(function() { $(document).ready(function() {
 				return parseInt($("#imgurPB-label").text().split("/")[0]);
 			};
 		
-			dropZone.before('<div id="imgurPB" style="width: 200px; left: 50%; margin-left: -100px; top: 60%; position: absolute; background-color: #1F1F1F; border-radius: 10px;"></div>');
+			$('#text_editor_textarea + * textarea').before('<div id="imgurPB" style="width: 200px; left: 50%; margin-left: -100px; top: 60%; position: absolute; background-color: #1F1F1F; border-radius: 10px;"></div>');
 			$("#imgurPB").append('<div id="imgurPB-hecho" style="position: absolute; background-color: #85BF25; height: 100%; width: 0%; border-radius: 10px; z-index: -1;"></div>');
 			$("#imgurPB").append('<div id="imgurPB-label" style="font-size: 25px; color: white; text-align:center;">...</div>');
 			$("#imgurPB-label").text("0/" + dataImgs.length);
@@ -74,6 +74,7 @@ $(document).ready(function() { $(document).ready(function() {
 		};
 
 		var procesarDrop = function(e) {
+			e = e.originalEvent;
             if (e.dataTransfer.files.length) {	
 				esconderDropZone();
 				e.stopPropagation();
@@ -122,6 +123,7 @@ $(document).ready(function() { $(document).ready(function() {
 		};
 		
         var resaltarDropZone = function(e) {
+			e = e.originalEvent;
             if (e.dataTransfer.types) {
                 for (var i = 0; i < e.dataTransfer.types.length; i++) {
                     if (e.dataTransfer.types[i] == "Files") {
@@ -150,11 +152,22 @@ $(document).ready(function() { $(document).ready(function() {
             dropZone.removeClass("album");
         };
 		
-        var dropZone = $('#text_editor_textarea + * textarea');
-        if (window.File && window.FileReader && window.FileList && window.Blob) {
-            dropZone[0].addEventListener('drop', procesarDrop, false);
-            dropZone[0].addEventListener('dragover', resaltarDropZone, false);
-            dropZone[0].addEventListener('dragleave', esconderDropZone, false);
+        var dropZone = $('#text_editor_textarea + * textarea').add($("body", $('#text_editor_textarea + * iframe').contents()));
+        if (window.localStorage && window.File && window.FileReader && window.FileList && window.Blob) {
+			var estiloDropZone = "";
+			for (var x = 0; x < document.styleSheets.length; x++) {
+				if (document.styleSheets[x].href && document.styleSheets[x].href.indexOf(location.origin) == 0 && document.styleSheets[x].cssRules) {
+					for (var i = 0; i < document.styleSheets[x].cssRules.length; i++) {
+						if (document.styleSheets[x].cssRules[i].selectorText && document.styleSheets[x].cssRules[i].selectorText.indexOf("#text_editor_textarea + * textarea") != -1) {
+							estiloDropZone += "body" + document.styleSheets[x].cssRules[i].cssText.split("#text_editor_textarea + * textarea")[1];
+						}
+					}
+				}
+			}
+			$('#text_editor_textarea').sceditor("instance").css(estiloDropZone);
+            dropZone.on('drop', procesarDrop);
+            dropZone.on('dragover', resaltarDropZone);
+            dropZone.on('dragleave', esconderDropZone);
         }
     }
 })});

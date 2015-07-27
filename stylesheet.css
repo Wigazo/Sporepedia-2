@@ -3,6 +3,7 @@
   background-image: url(http://i.imgur.com/w8rOeXL.png), url(http://i.imgur.com/iF059Fj.png), url(http://i.imgur.com/XmHnsp8.png), url(http://i.imgur.com/uBXLr97.png) !important;
   background-position: -9999px -9999px !important;
   background-repeat: no-repeat !important;
+  box-sizing: border-box;
 }
 #text_editor_textarea + * textarea.dropZone { 
   border: 3px dashed #999 !important; 
