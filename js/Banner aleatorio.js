@@ -150,5 +150,5 @@ banner[145]='http://i.imgur.com/I4xdYXV.png';
 banner[146]='http://i.imgur.com/rZDavPf.png';
 banner[147]='http://i.imgur.com/Yu0LbMf.png';
 
-document.getElementById('logo').firstChild.src= banner[Math.floor(Math.random()*banner.length)];
+$('#logo img').attr("src",banner[Math.floor(Math.random()*banner.length)]);
 });
