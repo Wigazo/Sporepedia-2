@@ -21,19 +21,5 @@ $(function() {
                 characterData: true
             });
         }
-
-        if (location.search == "?mode=editprofile&page_profil=preferences") {
-            $("form#ucp fieldset:first").prepend('<dl><dt><label>Sonido de notificación : </label></dt> <dd> <label> <input type="radio" name="sonido_notificacion" value="1">Sí</label> <label> <input type="radio" name="sonido_notificacion" value="0">No</label> <br><span class="italic">Esta opción no se guarda en tu perfil, sino en las cookies de tu navegador. Así que si las borrás o usás otro navegador, esta opción estará en su valor por defecto ("Sí").</span> </dd></dl>');
-            if (localStorage.getItem('sonido_notificacion') != 0) {
-                $("form#ucp input:radio[name ='sonido_notificacion'][value='1']").attr("checked", "checked");
-            } else {
-                $("form#ucp input:radio[name ='sonido_notificacion'][value='0']").attr("checked", "checked");
-            }
-            $("form#ucp").submit(function() {
-                localStorage.setItem('sonido_notificacion', $("form#ucp input:radio[name ='sonido_notificacion']:checked").val());
-                return true;
-            });
-        }
-
     })
 });
