@@ -1,3 +1,11 @@
+﻿/*Hipervinculos jQuery UI*/
+.ui-widget-content a {
+    color: #03B2ED !important;
+}
+.ui-widget-content a:hover {
+    color: #FFFFFF !important; 
+}
+
 /*Imgur uploader*/
 #text_editor_textarea + * textarea{
   background-image: url(http://i.imgur.com/w8rOeXL.png), url(http://i.imgur.com/iF059Fj.png), url(http://i.imgur.com/XmHnsp8.png), url(http://i.imgur.com/uBXLr97.png) !important;
