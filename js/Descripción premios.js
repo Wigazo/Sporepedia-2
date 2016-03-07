@@ -7,11 +7,11 @@ $('img[src="http://i792.photobucket.com/albums/yy202/Darkesis/Medallas%20Sporepe
 
 $('img[src="http://i792.photobucket.com/albums/yy202/Darkesis/Medallas%20Sporepedia%202/MedallaEspecial-2012Comentarios.png"]').attr('title', 'Filósofo: Completar los 2012 Mensajes en el foro');
 
-$('img[src="http://img28.imageshack.us/img28/271/bc3m.png"]').attr('title', 'Amigo: Mantener la barra de respeto al 100% por 3 meses con un mínimo de 300 mensajes');
+$('img[src="http://i.imgur.com/3TZHfhK.png"]').attr('title', 'Amigo: Mantener la barra de respeto al 100% por 3 meses con un mínimo de 300 mensajes');
 
-$('img[src="http://img607.imageshack.us/img607/6599/bc6m.png"]').attr('title', 'Socio: Mantener la barra de respeto al 100% por 6 meses con un mínimo de 650 mensajes');
+$('img[src="http://i.imgur.com/kbu8wRh.png"]').attr('title', 'Socio: Mantener la barra de respeto al 100% por 6 meses con un mínimo de 650 mensajes');
 
-$('img[src="http://i.imgur.com/RKKXClY.png"]').attr('title', 'Aliado: Mantener la barra de respeto al 100% por 1 año con un mínimo de 1500 mensajes');
+$('img[src="http://i.imgur.com/5WRm2s5.png"]').attr('title', 'Aliado: Mantener la barra de respeto al 100% por 1 año con un mínimo de 1500 mensajes');
 
 $('img[src="http://i792.photobucket.com/albums/yy202/Darkesis/Medallas%20Sporepedia%202/Medalla6-MejorAporte.png"]').attr('title', 'Compañero: Ayudar mucho en el subforo de Problemas, Ayuda y Preguntas');
 
@@ -23,7 +23,7 @@ $('img[src="http://i.imgur.com/GRpIyoT.png"]').attr('title', 'Organizador: Organ
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/jueza30.png"]').attr('title', 'Juez: Participar como juez en un concurso');
 
-$('img[src="http://img198.imageshack.us/img198/6675/asdasdyo.png"]').attr('title', 'Idealista: Tener 3 sugerencias aceptadas dentro del foro');
+$('img[src="http://i.imgur.com/3mFXKzU.png"]').attr('title', 'Idealista: Tener 3 sugerencias aceptadas dentro del foro');
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Checkers-2.png"]').attr('title', 'Vigilante: Ayudar a descubrir un robo de creación');
 
@@ -43,27 +43,27 @@ $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/trophygold30.png"]')
 
 $('img[src="http://i1018.photobucket.com/albums/af304/M4sturch33f/aventuradelmes.png"]').attr('title', 'Aventura del Mes: Ser primero en un evento de Aventura del Mes');
 
-$('img[src="http://img198.imageshack.us/img198/8726/amigoinvisible1.png"]').attr('title', 'Amigo Invisible: Hacerle un regalo a tu amigo invisible');
+$('img[src="http://i.imgur.com/WEeBT70.png"]').attr('title', 'Amigo Invisible: Hacerle un regalo a tu amigo invisible');
 
-$('img[src="http://img585.imageshack.us/img585/4952/medallaparticipacion.png"]').attr('title', 'Participación: Participar en los Juegos Forísticos 2011');
+$('img[src="http://i.imgur.com/hDPLDCF.png"]').attr('title', 'Participación: Participar en los Juegos Forísticos 2011');
 
-$('img[src="http://img850.imageshack.us/img850/7273/medallabronce.png"]').attr('title', 'Bronce: Conseguir una medalla de bronce en los Juegos Forísticos 2011');
+$('img[src="http://i.imgur.com/VhheQgV.png"]').attr('title', 'Bronce: Conseguir una medalla de bronce en los Juegos Forísticos 2011');
 
-$('img[src="http://img844.imageshack.us/img844/7540/medallaplata.png"]').attr('title', 'Plata: Conseguir una medalla de plata en los Juegos Forísticos 2011');
+$('img[src="http://i.imgur.com/OTELQW8.png"]').attr('title', 'Plata: Conseguir una medalla de plata en los Juegos Forísticos 2011');
 
 $('img[src="http://i1308.photobucket.com/albums/s618/Emd4600/medallaoro-1_zpsf5624be3.png"]').attr('title', 'Oro: Conseguir una medalla de oro en los Juegos Forísticos 2011');
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/trofeobronce.png:original"]').attr('title', '3º Lugar: Lograr el 3º lugar en los Juegos Forísticos 2011');
 
-$('img[src="http://img43.imageshack.us/img43/9383/trofeoplata.png"]').attr('title', '2º Lugar: Lograr el 2º lugar en los Juegos Forísticos 2011');
+$('img[src="http://i.imgur.com/RA2BCUY.png"]').attr('title', '2º Lugar: Lograr el 2º lugar en los Juegos Forísticos 2011');
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/trofeoorow.png"]').attr('title', '1º Lugar	: Lograr el 1º lugar en los Juegos Forísticos 2011');
 
-$('img[src="http://img854.imageshack.us/img854/1301/bronzesemi.png"]').attr('title', 'Semifinalista: Quedar como semifinalista en el concurso "Los 4 Elementos"');
+$('img[src="http://i.imgur.com/VDMvsb2.png"]').attr('title', 'Semifinalista: Quedar como semifinalista en el concurso "Los 4 Elementos"');
 
-$('img[src="http://img171.imageshack.us/img171/4930/2plata.png"]').attr('title', '2º Puesto: Alcanzar el 2º puesto en el concurso "Los 4 Elementos"');
+$('img[src="http://i.imgur.com/HY5eBeN.png"]').attr('title', '2º Puesto: Alcanzar el 2º puesto en el concurso "Los 4 Elementos"');
 
-$('img[src="http://img217.imageshack.us/img217/7302/1oro.png"]').attr('title', '1º Puesto: Alcanzar el 1º puesto en el concurso "Los 4 Elementos"');
+$('img[src="http://i.imgur.com/VOCyO0h.png"]').attr('title', '1º Puesto: Alcanzar el 1º puesto en el concurso "Los 4 Elementos"');
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Olim2Part-7.png"]').attr('title', 'Participación: Participar en los Juegos Forísticos 2012');
 
@@ -101,9 +101,9 @@ $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/N12L3.png"]').attr('
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/N12L2.png"]').attr('title', 'Regalo Especial: Ser 2° en la categoría libre');
 
-$('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/N12L1.png"]').attr('title', 'Regalo Navideño	: Ser 1° en la categoría libre');
+$('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/N12L1.png"]').attr('title', 'Regalo Navideño: Ser 1° en la categoría libre');
 
-$('img[src="http://img14.imageshack.us/img14/9941/snowman3.png"]').attr('title', 'Muñeco de Nieve: Participar en la categoría template');
+$('img[src="http://i.imgur.com/UTxFEqp.png"]').attr('title', 'Muñeco de Nieve: Participar en la categoría template');
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/N12T3a.png"]').attr('title', 'Regalo de Bronce: Ser 3° en la categoría template');
 
@@ -113,9 +113,9 @@ $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/N12T1.png"]').attr('
 
 $('img[src="http://i.imgur.com/TFMzr2M.png"]').attr('title', 'Aficionado: Ganar un reto');
 
-$('img[src="http://img834.imageshack.us/img834/2503/medalla2.png"]').attr('title', 'Profesional: Ganar 5 retos');
+$('img[src="http://i.imgur.com/EcJdOvn.png"]').attr('title', 'Profesional: Ganar 5 retos');
 
-$('img[src="http://img51.imageshack.us/img51/2876/medalla3.png"]').attr('title', 'Legendario: Ganar 25 retos');
+$('img[src="http://i.imgur.com/obtvZM8.png"]').attr('title', 'Legendario: Ganar 25 retos');
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Recluta.png"]').attr('title', 'Recluta: Unirse por primera vez a un arquetipo');
 
@@ -137,7 +137,7 @@ $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Rango8.png"]').attr(
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Rango9.png"]').attr('title', 'Rango 9: Alcanzar el rango 9');
 
-$('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Rango10.png"]').attr('title', 'Rango 10	: Alcanzar el último rango');
+$('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Rango10.png"]').attr('title', 'Rango 10: Alcanzar el último rango');
 
 $('img[src="http://i1083.photobucket.com/albums/j391/Wigazo/Bardo.png"]').attr('title', 'Bardo: Permanecer 2 semanas en rango 10 de Bardo');
 
@@ -173,7 +173,7 @@ $('img[src="http://i350.photobucket.com/albums/q409/juaner92/aonuevo.png"]').att
 
 $('img[src="http://i.imgur.com/ZgfGqw9.jpg"]').attr('title', 'Sr. X: Resolver un reto en el juego Quien es...?');
 
-$('img[src="http://img155.imageshack.us/img155/728/insertlink.png"]').attr('title', '5+: Crear de un tema con 5 páginas o más, fuera de los subforos Problemas, Ayuda y Preguntas, Entretenimiento y Juegos');
+$('img[src="http://i.imgur.com/aij1QMj.png"]').attr('title', '5+: Crear de un tema con 5 páginas o más, fuera de los subforos Problemas, Ayuda y Preguntas, Entretenimiento y Juegos');
 
 $('img[src="http://i350.photobucket.com/albums/q409/juaner92/juaner_zpsac814b64.png"]').attr('title', 'juaner: Ser juaner o un elegido');
 
@@ -269,52 +269,111 @@ $('img[src="http://i.imgur.com/oNcLJ1C.png"]').attr('title', '2º Lugar: Lograr e
 
 $('img[src="http://i.imgur.com/mJ20uWq.png"]').attr('title', '1º Lugar: Lograr el 1º lugar en los Juegos Forísticos 2014');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/HuesoSin_zpsab68fbdc.png"]').attr('title', 'Participar en Concurso Prehistórico');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Huesos_zpsw9inbv5n.png"]').attr('title', 'Participación: Participar en Concurso Prehistórico');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/3Con_zps66bc3024.png"]').attr('title', 'Tercer puesto en Concurso Prehistórico');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Tercer_zpst7tamd3p.png"]').attr('title', '3º lugar: Tercer puesto en Concurso Prehistórico');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/2Con_zps4c7db8cb.png"]').attr('title', 'Segundo puesto en Concurso Prehistórico');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Segundo_zps9ss8zce0.png"]').attr('title', '2º lugar: Segundo puesto en Concurso Prehistórico');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/1Con_zpsb7c9c410.png"]').attr('title', 'Primer puesto en Concurso Prehistórico');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Primer_zpsnfgwyezw.png"]').attr('title', '1º lugar: Primer puesto en Concurso Prehistórico');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/BrozoGif_zpsacd2d256.png"]').attr('title', 'Sim City Societies RIFA! - Participar del evento "Brozoween"');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Brozo_zpskolo1dnq.png"]').attr('title', 'Sim City Societies RIFA!: Participar del evento "Brozoween"');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/Esqueleto_zps09ab0ccc.jpg"]').attr('title', 'Hasta los Huesos - Ganar en categoría de esqueletos');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Esqueleto_zps4f3gjneh.jpg"]').attr('title', 'Hasta los Huesos: Ganar en categoría de esqueletos');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/Zombi_zps6a794566.jpg"]').attr('title', 'Está vivo! - Ganar en categoría de zombis');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Zombi_zps4n4ferfc.jpg"]').attr('title', '¡Está vivo!: Ganar en categoría de zombis');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/Fantasma_zpsc3f1921e.png"]').attr('title', 'Poltergeist - Ganar en categoría de fantasmas');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Fantasma_zpsmywwf4q9.png"]').attr('title', 'Poltergeist: Ganar en categoría de fantasmas');
 
-$('img[src="http://i1365.photobucket.com/albums/r759/ivan_acevedo1/Premios/araa_zpsae54676f.png"]').attr('title', 'Aracnofobia - Ganar en categoría de arañas');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Arantildea_zpsjdshk3n9.png"]').attr('title', 'Aracnofobia: Ganar en categoría de arañas');
 
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014_zps84fdcb7a.png"]').attr('title', 'Participación - Participar en el Amigo Invisible 2014');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014_zps84fdcb7a.png"]').attr('title', 'Participación: Participar en el Amigo Invisible 2014');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014bronce_zps61747584.png"]').attr('title', 'Tercer puesto - Lograr el 3º puesto en el Amigo Invisible 2014');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014bronce_zps61747584.png"]').attr('title', 'Tercer puesto: Lograr el 3º puesto en el Amigo Invisible 2014');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014plata_zps06946797.png"]').attr('title', 'Segundo puesto - Lograr el 2º puesto en el Amigo Invisible 2014');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014plata_zps06946797.png"]').attr('title', 'Segundo puesto: Lograr el 2º puesto en el Amigo Invisible 2014');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014oro_zpse130c6c7.png"]').attr('title', 'Primer puesto - Lograr el 1º puesto en el Amigo Invisible 2014');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Amigosecreto2014oro_zpse130c6c7.png"]').attr('title', 'Primer puesto: Lograr el 1º puesto en el Amigo Invisible 2014');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentoparticipar_zps8ba45394.png"]').attr('title', 'Participación - Participar en "Cuentos Navideños"');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentoparticipar_zps8ba45394.png"]').attr('title', 'Participación: Participar en "Cuentos Navideños"');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentobronce_zps514722f5.png"]').attr('title', 'Tercer puesto - Lograr el 3º puesto en Cuentos Navideños');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentobronce_zps514722f5.png"]').attr('title', 'Tercer puesto: Lograr el 3º puesto en Cuentos Navideños');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentoplata_zps71d8b011.png"]').attr('title', 'Segundo puesto - Lograr el 2º puesto en Cuentos Navideños');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentoplata_zps71d8b011.png"]').attr('title', 'Segundo puesto: Lograr el 2º puesto en Cuentos Navideños');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentooro_zpse8eebe5a.png"]').attr('title', 'Primer puesto - Lograr el 1º puesto en Cuentos Navideños');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Cuentooro_zpse8eebe5a.png"]').attr('title', 'Primer puesto: Lograr el 1º puesto en Cuentos Navideños');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturabronce_zpsae2ff9a7.png"]').attr('title', 'Tercer puesto - Lograr el 3º puesto en Personajes Navideños');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturabronce_zpsae2ff9a7.png"]').attr('title', 'Tercer puesto: Lograr el 3º puesto en Personajes Navideños');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaplata_zpsa8a34b6d.png"]').attr('title', 'Segundo puesto - Lograr el 2º puesto en Personajes Navideños');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaplata_zpsa8a34b6d.png"]').attr('title', 'Segundo puesto: Lograr el 2º puesto en Personajes Navideños');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaoro_zpsa2400614.png"]').attr('title', 'Primer puesto - Lograr el 1º puesto en Personajes Navideños');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/Premios/Criaturaoro_zpsa2400614.png"]').attr('title', 'Primer puesto: Lograr el 1º puesto en Personajes Navideños');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/paralel_zpsae2d4577.png"]').attr('title', 'Cariñoso - Dar un regalo de San Abrazitos.');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/paralel_zpsae2d4577.png"]').attr('title', 'Cariñoso: Dar un regalo de San Abrazitos.');
 
-$('img[src="http://i.imgur.com/qIFeXNA.png"]').attr('title', 'Abrazador - Dar Cinco regalos de San Abrazitos.');
+$('img[src="http://i.imgur.com/qIFeXNA.png"]').attr('title', 'Abrazador: Dar Cinco regalos de San Abrazitos.');
 
-$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/trofeoorow_zps1567b14b.png"]').attr('title', 'Apreciado - Recibir un regalo de San Abrazitos.');
+$('img[src="http://i1294.photobucket.com/albums/b603/MrSouls/trofeoorow_zps1567b14b.png"]').attr('title', 'Apreciado: Recibir un regalo de San Abrazitos.');
 
-$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Beloved_BR_Blue_grande_zps2f3029ac.png"]').attr('title', '¡Te adoro! - Darle un regalo a Abrazitos');
+$('img[src="http://i1347.photobucket.com/albums/p703/RhineGuapo/Beloved_BR_Blue_grande_zps2f3029ac.png"]').attr('title', '¡Te adoro!: Darle un regalo a Abrazitos');
+
+$('img[src="http://i.imgur.com/Axgf8ew.png"]').attr('title', 'Reciclador: Reabrir tres Sugerencias Rechazadas y lograr que se acepten');
+
+$('img[src="http://i.imgur.com/whe92ZM.png"]').attr('title', 'Participación: Participar en los Juegos Forísticos 2015');
+
+$('img[src="http://i.imgur.com/FnUe79V.gif"]').attr('title', 'Olímpico: Participar en todas las categorías del concurso, sin excepción.');
+
+$('img[src="http://i.imgur.com/pEf3KWv.png"]').attr('title', 'Bronce: Conseguir una medalla de bronce en los Juegos Forísticos 2015');
+
+$('img[src="http://i.imgur.com/p8phgbd.png"]').attr('title', 'Plata: Conseguir una medalla de plata en los Juegos Forísticos 2015');
+
+$('img[src="http://i.imgur.com/KcwdLP7.png"]').attr('title', 'Oro: Conseguir una medalla de oro en los Juegos Forísticos 2015');
+
+$('img[src="http://i.imgur.com/uHSi5FA.png"]').attr('title', '3º Lugar: Lograr el 3º lugar en los Juegos Forísticos 2015');
+
+$('img[src="http://i.imgur.com/Tt6ofwH.png"]').attr('title', '2º Lugar: Lograr el 2º lugar en los Juegos Forísticos 2015');
+
+$('img[src="http://i.imgur.com/6xgbpDo.png"]').attr('title', '1º Lugar: Lograr el 1º lugar en los Juegos Forísticos 2015');
+
+$('img[src="http://i.imgur.com/MDWeKIO.png"]').attr('title', 'Investigador: Participar en Los Experimentos del Dr. Breincrox.');
+
+$('img[src="http://i.imgur.com/s73G6Tz.png"]').attr('title', 'Ingeniero Genético: Evolucionar a 4 de 8 especímenes.');
+
+$('img[src="http://i.imgur.com/mc85Cle.png"]').attr('title', 'Científico Loco: Evolucionar a todos los especímenes.');
+
+$('img[src="http://i.imgur.com/wSQo62W.png"]').attr('title', 'Maestro evolutivo: Crear la mejor cadena evolutiva.');
+
+$('img[src="http://i.imgur.com/D2uw8ko.png"]').attr('title', 'Experto Volcánico: Realizar la mejor evolución del ambiente Volcánico.');
+
+$('img[src="http://i.imgur.com/USR4b5n.png"]').attr('title', 'Experto Desértico: Realizar la mejor evolución del ambiente Desértico.');
+
+$('img[src="http://i.imgur.com/Cp5F5PN.png"]').attr('title', 'Experto Ártico: Realizar la mejor evolución del ambiente Ártico.');
+
+$('img[src="http://i.imgur.com/jocsFVF.png"]').attr('title', 'Experto Tropical: Realizar la mejor evolución del ambiente Tropical.');
+
+$('img[src="http://i.imgur.com/5FtL2Tz.png"]').attr('title', 'Experto Marítimo: Realizar la mejor evolución del ambiente Marítimo.');
+
+$('img[src="http://i.imgur.com/hKpG4Yu.png"]').attr('title', 'Experto Abismal: Realizar la mejor evolución del ambiente Abismal.');
+
+$('img[src="http://i.imgur.com/oBMNC6l.png"]').attr('title', 'Experto Montañoso: Realizar la mejor evolución del ambiente Montañoso.');
+
+$('img[src="http://i.imgur.com/Fc3KBjN.png"]').attr('title', 'Experto Boscoso: Realizar la mejor evolución del ambiente Boscoso.');
+
+$('img[src="http://i.imgur.com/ouueDQs.png"]').attr('title', 'Amigo Invisible 2015: Hacerle un regalo a tu amigo invisible del 2015.');
+
+$('img[src="http://i.imgur.com/FRB58xV.jpg"]').attr('title', 'Amigo Dedicado: Haberte esforzado con el dibujo en paint para tu Amigo Invisible.');
+
+$('img[src="http://i.imgur.com/1eVM7gG.png"]').attr('title', 'Tónico Coolcraft: Participar en el concurso Desbrozando la Navidad');
+
+$('img[src="http://i.imgur.com/66l6qZ0.png"]').attr('title', 'Tónico Purificador: Participar con 3 creaciones en el concurso Desbrozando la Navidad');
+
+$('img[src="http://i.imgur.com/Azn7jNP.png"]').attr('title', '?????????: ¡¿Cómo rayos se gana este premio?!');
+
+$('img[src="http://i.imgur.com/9C8ERNe.png"]').attr('title', 'Tercer Puesto: Tercera mejor creación del concurso Desbrozando la Navidad');
+
+$('img[src="http://i.imgur.com/9MPHrNs.png"]').attr('title', 'Segundo Puesto: Segunda mejor creación del concurso Desbrozando la Navidad');
+
+$('img[src="http://i.imgur.com/1H8VvYJ.png"]').attr('title', 'Primer Puesto: Mejor creación del concurso Desbrozando la Navidad');
+
 });

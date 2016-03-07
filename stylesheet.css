@@ -423,34 +423,6 @@ ul.topiclist li {
 }
 
 
-/*Color spoiler*/
-
-.spoiler {
-border: 1px solid #302F2F;
-padding: 5px 5px 5px;
-}
-
-.spoiler_content {
-background-color: #302F2F;
-border: 1px solid #302F2F;
-padding: 5px 5px 5px;
-margin-top: -6px;
-}
-
-.spoiler dt {
-background-image: Spoiler;
-background-repeat: no-repeat;
-background-color: #302F2F;
-}
-
-.spoiler dd {
-background-image: Spoiler;
-background-repeat: no-repeat;
-background-position: 14px 2px;
-}
-
-
-
 /*Lupa búsqueda*/
 input.search {
    background-image: url('http://img402.imageshack.us/img402/9041/lupa.png');
@@ -656,3 +628,67 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, butt
 	color: #ffffff;
 	background-position: 0 100%;
 	}
+
+/*Nuevas Menciones*/
+
+.tooltipster-base.tooltipster-default {
+    background: #2C2C2C;
+    color: #BBBDBC;
+}
+.tooltip-actions {
+    background: url(http://i76.servimg.com/u/f76/15/34/08/13/fondo_10.jpg) !important;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top-left span, .tooltipster-arrow-top-right span, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-left span, .tooltipster-arrow-bottom-right span {
+    border-color: black !important;
+}
+
+/*Citas, Spoilers y Codebox Bonitos*/
+
+blockquote, dl.codebox {
+    border: 2px solid #3D644B;
+    border-radius: 3px;
+    margin: 6px;
+    padding: 5px;
+}
+blockquote {
+    background: url(http://i.imgur.com/f7Z7Nko.png);
+}
+dl.codebox {
+    background: url(http://i.imgur.com/cGC6Vy9.png);
+}
+dl.codebox.spoiler {
+    background: url(http://i.imgur.com/vaDwt6S.png);
+}
+blockquote cite, dl.codebox dt {
+    color: #EEF0EF;
+    background: url(http://i.imgur.com/15phMoD.jpg);
+    padding: 2px;
+    margin: -5px -5px 3px -5px;
+    border: none; 
+}
+blockquote cite:before {
+    content: url(http://i.imgur.com/RPGlWff.png);
+    margin: 3px;
+}
+dl.codebox > dt:before {
+    content: url(http://i.imgur.com/fTuPQqt.png);
+    margin: 3px;
+}
+dl.codebox.spoiler > dt:before {
+    content: url(http://i.imgur.com/2zpIutX.png);
+    margin: 3px;
+}
+blockquote > div {
+    margin: 0;
+}
+blockquote:hover font {
+    color: #595858 !important;
+}
+dl.codebox code {
+    color: #a7b8ff !important;
+}
+
+/*Ocultar botón perfil*/
+.postprofile dl dd a.profile-icon[title='Ver perfil de usuario'] {
+    display: none;
+}

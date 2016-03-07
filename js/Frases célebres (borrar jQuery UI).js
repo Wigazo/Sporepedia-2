@@ -1,17 +1,4 @@
 //Posición: En el indice
-//BORRAR
-//EN LA LINEA 155 FALTA LA CONVER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-var script = document.createElement('script');
-script.src = 'http://code.jquery.com/ui/1.11.2/jquery-ui.min.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
-var link = document.createElement('link');
-link.href = 'http://code.jquery.com/ui/1.10.2/themes/vader/jquery-ui.min.css';
-link.rel = 'stylesheet';
-link.id = 'ui-theme';
-document.getElementsByTagName('head')[0].appendChild(link);
-//
-
 $(document).ready(function() {
 	//Las comillas dentro de las frases y explicaciones se ponen así: \"
 	//Varias frases en una van separadas con: \",\"  (ver la primer frase como ejemplo)
@@ -29,7 +16,7 @@ $(document).ready(function() {
 	}, {
 		"f": "Garcais",
 		"a": "Wigazo",
-		"e": "Típico fail de Wig en sus comienzos en el foro, al intentar escribir \"gracias\". Generalmente le pasaba en el CG (Cuartel General del grupo clandestino y revoluciionario, JDF). También decía \"garcias\" o \"gracais\". Le pasaba muy, muy seguido."
+		"e": "Típico fail de Wig en sus comienzos en el foro, al intentar escribir \"gracias\". Generalmente le pasaba en el CG (Cuartel General del grupo clandestino y revolucionario, JDF). También decía \"garcias\" o \"gracais\". Le pasaba muy, muy seguido."
 	}, {
 		"f": "Y espero que cuando vuelva, no cambien de color",
 		"a": "Wigazo",
@@ -153,7 +140,7 @@ $(document).ready(function() {
 	}, {
 		"f": "@juaner has sido baneado por juaner",
 		"a": "Chat’s information",
-		"e": "Según Wig, la frase más graciosa del foro (del 04/09/10 a las 18:57:04), antes de la de \"FOROFOROFOR...\". Antes hay que aclarar que en esos tiempos los días eran como siglos. Todos los días pasaban muchos hechos. Podría decire que un mes foro actual equivale a un día foro antiguo.<br>Anteriormente, Destroyerev había descubierto que los usuarios podían cambiar el nombre de usuario. Imaginen el caos que se armó. El 03/09/10 Wig había hecho una broma con Lirianer para sorprender a Elite e intentar hacer que suelte un \"WTF?!\". Se intercambiamos los nicks (Lirianer era colaborador y Wig nada, así que queríamos hacerle pensar que Wig lo había sustituído) y la esperamos por horas... Cuando por fin llegó, no pareció sorprendida en lo absoluto. Un fail auténtico.<br>Volviendo a la frase, Destroyerev se cambió el nick por \"@juaner\" para asustarlos. Muchos se copiaron de él, entre ellos, Liri y Wig. Ese día había una discusión en el chat, así que a Wig se le ocurrió hacerse pasar por juaner para que se asustaran y se calmaran un poco. Sin embargo, Elite le buchoneó a juaner, diciendo que lo que hizo no era correcto. Juaner entró, y sin dejar hablar a Elite, baneó a juaner, que en realidad era Lirianer, y se fue al instante. Wig creyó haberse salvado, pero luego fue baneado también por un día (del chat).<br><br>Miren la reacción de Wig, la de LCD (DarkClaudio) y la de Elite. xD<br>Skiler31 era Destroyerev. "
+		"e": "Según Wig, la frase más graciosa del foro (del 04/09/10 a las 18:57:04), antes de la de \"FOROFOROFOR...\". En esos tiempos siempre pasaba todo.<br>Anteriormente, Destroyerev había descubierto que los usuarios podían cambiar el nombre de usuario. Imaginen el caos que se armó. El 03/09/10 Wig había hecho una broma con Lirianer para sorprender a Elite e intentar hacer que suelte un \"WTF?!\". Se intercambiaros los nicks (Lirianer era colaborador y Wig nada, así que querían hacerle pensar que Wig lo había sustituído) y la esperaron por horas... Cuando por fin llegó, no pareció sorprendida en lo absoluto. Un fail auténtico.<br>Volviendo a la frase, Destroyerev se cambió el nick por \"@juaner\" para asustarlos. Muchos se copiaron de él, entre ellos, Liri y Wig. Ese día había una pelea fuerte en el chat, así que a Wig se le ocurrió hacerse pasar por juaner para que se asustaran y se calmaran un poco. Sin embargo, Elite le buchoneó a juaner, diciendo que lo que hizo no era correcto. Juaner entró, y sin dejar hablar a Elite, baneó a juaner, que en realidad era Lirianer, y se fue al instante. Wig creyó haberse salvado, pero luego fue baneado también por un día (del chat).<br><img src='http://i.imgur.com/5kMAp9z.png'><br>Miren la reacción de Wig, la de LCD (DarkClaudio) y la de Elite. xD<br>Skiler31 era Destroyerev.  "
 	}, {
 		"f": "e_E",
 		"a": "3lite",
@@ -161,7 +148,7 @@ $(document).ready(function() {
 	}, {
 		"f": "D:",
 		"a": "LightClaudio",
-		"e": "Esta cara la usaba LCD en \"La era del flood\", que eran los incios del foro, donde la única regla era: \"No hay reglas\" (Lo cual produjo una paradoja que casi acababa con el universo mismo).<br>Claudio solía poner mensajes en el foro, en donde su único contenido era esta \"frase\".<br>Mucho más tarde, LCD empezó a volver a usar la cara, pero en el chat, debido a que el flood ya no se permite en el foro."
+		"e": "Esta cara la usaba LCD en \"La era del flood\", que eran los inicios del foro, donde la única regla era: \"No hay reglas\" (Lo cual produjo una paradoja que casi acababa con el universo mismo).<br>Claudio solía poner mensajes en el foro, en donde su único contenido era esta \"frase\".<br>Mucho más tarde, LCD empezó a volver a usar la cara, pero en el chat, debido a que el flood ya no se permite en el foro."
 	}, {
 		"f": "Esto no es un concurso de popularidad.",
 		"a": "juaner",
@@ -185,11 +172,11 @@ $(document).ready(function() {
 	}, {
 		"f": "Me gustan las tortugas",
 		"a": "MXS",
-		"e": "Estrategia de MXS para calmar una pelea. Por mucho tiempo se creyó que era una frase original de él, pero resulta que la sacó de un video famoso: <a href='http://www.youtube.com/watch?v=CMNry4PE93Y'>http://www.youtube.com/watch?v=CMNry4PE93Y</a><br>La primera vez que mencionó las tortugas fue cuando estaban él, Elite y Wigzo en Skype, haciendo llamadas en joda a una aerolínea. MXS preguntaba al que atendía \"¿Te gustan las tortugas?\"."
+		"e": "Estrategia de MXS para calmar una pelea. Por mucho tiempo se creyó que era una frase original de él, pero resulta que la sacó de un video famoso: <a href='http://www.youtube.com/watch?v=CMNry4PE93Y'>http://www.youtube.com/watch?v=CMNry4PE93Y</a><br>La primera vez que mencionó las tortugas fue cuando estaban él, Elite y Wigazo en Skype, haciendo llamadas en joda a una aerolínea. MXS preguntaba al que atendía \"¿Te gustan las tortugas?\"."
 	}, {
 		"f": "Ponte el delantal y limpia las telarañas.",
 		"a": "3lite",
-		"e": "Esa frase surgió por el abandono que se le dio al CG de JDF. Éste empezó a llenarse de telarañas, así que cuando sus mmiembros volvían, Elite le decía esto a Wig."
+		"e": "Esa frase surgió por el abandono que se le dio al CG de JDF. Éste empezó a llenarse de telarañas, así que cuando sus miembros volvían, Elite le decía esto a Wig."
 	}, {
 		"f": "El delantal te queda mejor a vos.",
 		"a": "3lite",
@@ -341,7 +328,7 @@ $(document).ready(function() {
 	}, {
 		"f": "Otra razón para odiarte.",
 		"a": "Wigazo",
-		"e": "Cada vez que Liri hacía algo que le daban ganas de matarlo, Wig decía esto. Ahora lo doce siempre cuando Liri hace algo, sin importar si es bueno o no, solo para bromear. Esta frase la añadió a Minecraft como parte de su <a href='http://www.sporepedia2.com/t6708-mi-maximum-trolling-a-minecraft'>trolleo</a>."
+		"e": "Cada vez que Liri hacía algo que le daban ganas de matarlo, Wig decía esto. Ahora lo dice siempre cuando Liri hace algo, sin importar si es bueno o no, solo para bromear. Esta frase la añadió a Minecraft como parte de su <a href='http://www.sporepedia2.com/t6708-mi-maximum-trolling-a-minecraft'>trolleo</a>."
 	}, {
 		"f": "Dentro de unos años...",
 		"a": "Lirianer",
@@ -373,7 +360,7 @@ $(document).ready(function() {
 	}, {
 		"f": "Cuéntame una historia.",
 		"a": "3lite",
-		"e": "Cuando Elite tenía miedo, quería que le cuenten historias. Wig conté la de “Las aventuras de Blue y WCC”, la cual nunca terminó."
+		"e": "Cuando Elite tenía miedo, quería que le cuenten historias. Wig contó la de “Las aventuras de Blue y WCC”, la cual nunca terminó."
 	}, {
 		"f": "¿Qué hago?",
 		"a": "3lite",
@@ -433,7 +420,7 @@ $(document).ready(function() {
 	}, {
 		"f": "Sólo una cosa dekar... ¿Hay algo para ti que no sea arenoso, castroso, aburrido, amargado o llorón?",
 		"a": "Arwen",
-		"e": "Se lo preguntó en su <a href= 'http://www.sporepedia2.com/t10791p48-dia-internacional-de-la-mujer-dim#212799'>sugerencia del Día Internacional de la Mujer</a>. Wig dije que sí hay una cosa: él mismo. Pero que nadie coincide con él en esto."
+		"e": "Se lo preguntó en su <a href= 'http://www.sporepedia2.com/t10791p48-dia-internacional-de-la-mujer-dim#212799'>sugerencia del Día Internacional de la Mujer</a>."
 	}, {
 		"f": "Adios ilusos",
 		"a": "BETTER INJECTION",
@@ -525,7 +512,7 @@ $(document).ready(function() {
 	}, {
 		"f": "siento q justos tengan q pagar por pecadores",
 		"a": "juaner",
-		"e": "En una pelea que tuvo con Wig, donde amenazó con borrar el foro si Wig no se disculpaba, juaner cerró el chat por un tiempo y se disculpó por hacerle pagar a todos por algo yo había hecho. Wig perdió su lugar en el staff, era Admin."
+		"e": "En una pelea que tuvo con Wigazo, donde amenazó con borrar el foro si Wig no se disculpaba, juaner cerró el chat por un tiempo y se disculpó por hacerle pagar a todos por algo que Wig había hecho. Wig perdió su lugar en el staff, era Admin."
 	}, {
 		"f": "dile Wig Te Crees Mi Madre?Pues Toma Banneado xd",
 		"a": "SSBBW",
@@ -605,7 +592,7 @@ $(document).ready(function() {
 	}, {
 		"f": "que hace alguien de 99 años jugando spore?",
 		"a": "LightClaudio",
-		"e": "Cuando Wig se registraba en cualquier página, se pongo una edad mayor a la real, por las dudas (ya que era menor). Al presentarse en foro, LCD vio en su perfil que él tenía 99 años, y le <a href= 'http://www.sporepedia2.com/t528-me-presento#6092'>hizo la pregunta</a>, obviamente en broma sabiendo que no era su verdadera edad... o quizás iba en serio."
+		"e": "Cuando Wig se registraba en cualquier página, se ponía una edad mayor a la real, por las dudas (ya que era menor). Al presentarse en foro, LCD vio en su perfil que él tenía 99 años, y le <a href= 'http://www.sporepedia2.com/t528-me-presento#6092'>hizo la pregunta</a>, obviamente en broma sabiendo que no era su verdadera edad... o quizás iba en serio."
 	}, {
 		"f": "HOLA soy JUANERRRR no juanes",
 		"a": "juaner",
@@ -737,7 +724,7 @@ $(document).ready(function() {
 	}, {
 		"f": "Wigazo [JDF] Wigazo [JDF] Wigazo [JDF] Wigazo [JDF] Wigazo [JDF] Wigazo [JDF]",
 		"a": "3lite",
-		"e": "Forma de saludar en el chat que tenía Elite (Wig a veces la usaba con ella también), a la que llamaba \"funflood\" (hasta el 2015 se autoescribía el nick de un usuario al cliquearlo)."
+		"e": "Forma de saludar en el chat que tenía Elite, a la que llamaba \"funflood\"-"
 	}, {
 		"f": "Dejen de hablar de Chuck o los baneo.",
 		"a": "sefirok",
@@ -773,7 +760,7 @@ $(document).ready(function() {
 	}, {
 		"f": "(CyG) Wigazo [JDF] tienes algun problema con migo que cada vez que hablo me haces la contra como si me tuvieras rencor",
 		"a": "5m0okt",
-		"e": "En la <a href= 'http://www.sporepedia2.com/t916p2-segunda-reunion'>segunda reunión</a> Wig se mostraba totalmente en contra de que ascendieran a 5m0okt a Moderador, sólo porque antes de su ausencia había sido Mod Jr. Wigazo decía que antes debía ser colaborador, además, el cargo de Moderador le pertenecía a Elite. De todos modos, Smoot exageraba un poco. 5m0okt pasó a ser odiado por todosn por ser un plagiador de creaciones,"
+		"e": "En la <a href= 'http://www.sporepedia2.com/t916p2-segunda-reunion'>segunda reunión</a> Wig se mostraba totalmente en contra de que ascendieran a 5m0okt a Moderador, sólo porque antes de su ausencia había sido Mod Jr. Wigazo decía que antes debía ser colaborador, además, el cargo de Moderador le pertenecía a Elite (la forma en la que se trataban los cargos del staff era muy distinta en ese entonces)."
 	}, {
 		"f": "Amenazaste con hakear el foro. ¿Disculpa? ¿Cómo lo harás? ¿Con raymans?",
 		"a": "3lite",
@@ -813,7 +800,7 @@ $(document).ready(function() {
 	}, {
 		"f": "Carajo!",
 		"a": "GhOsT",
-		"e": "Exclamación que de vez en cuando soltaba el fantasmista sexy. Por cierto, este apodo se lo dio 3lite cuando acostumbraba cambiar el género de los perfiles de los usuarios. Luego de cambiárselo a GhOsT, se lo cambió a todo el staff. Luego siguió con el humor de Ghost, le agregó infracciones estúpida, cambió su localización y comentarios, y estuvo a punto de cambiarle el avatar."
+		"e": "Exclamación que de vez en cuando soltaba el fantasmista sexy. Por cierto, este apodo se lo dio 3lite cuando acostumbraba cambiar el género de los perfiles de los usuarios. Luego de cambiárselo a GhOsT, se lo cambió a todo el staff. Luego siguió con el humor de Ghost, le agregó infracciones estúpidas, cambió su localización y comentarios, y estuvo a punto de cambiarle el avatar."
 	}, {
 		"f": "¡No me interrumpas, estoy hablando con mi esposa muerta! <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1091117066.png'>",
 		"a": "Razor",
@@ -821,7 +808,7 @@ $(document).ready(function() {
 	}, {
 		"f": "hay yo hoy vi unas botas en oferta, divinas! Pero mi novio Rozart no me las quiso comprar, asi que termine con el",
 		"a": "Razor",
-		"e": "omentario sumamente cómico de Rosita, Rosa, Rosyy, el afamado personaje de Razor en la noche de locas.<br>La <a href= 'http://www.sporepedia2.com/t6975-rosii-plazhyy-myssyyy-y-elityy'>noche de locas</a> es una joda-juego que fue creada para burlarse de aquellas mujeres... \"escorias y materialistas\", según 3lite."
+		"e": "Comentario sumamente cómico de Rosita, Rosa, Rosyy, el afamado personaje de Razor en la noche de locas.<br>La <a href= 'http://www.sporepedia2.com/t6975-rosii-plazhyy-myssyyy-y-elityy'>noche de locas</a> es una joda-juego que fue creada para burlarse de aquellas mujeres... \"escorias y materialistas\", según 3lite."
 	}, {
 		"f": "SPAAAAAACE!!!!!",
 		"a": "Razor",
@@ -873,7 +860,7 @@ $(document).ready(function() {
 	}, {
 		"f": "Tanto hablar de comida mi dio hambre y me fui a preparar el sesayuno.",
 		"a": "Mx3brainpower",
-		"e": "Un error de tipeo de Mx3 hizo creer a lo usuarios del ChatBox que sus desayunos consisten en cerebros, y por eso el \"brain\" de su nick:<br><br>[09:36:04] @ Mx3brainpower : Tanto hablar de comida mi dio hambre y me fui a preparar el sesayuno.<br>[09:36:21] Surten de Soita III : lol<br>[09:36:39] @ Mx3brainpower : desayuno* <a href= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/2091913784.png'></a><br>[09:36:43] @ Andalaosa : Sesayuno <a href= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'></a><br>[09:36:58] Surten de Soita III : es un zombie <a href= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'><br>[09:37:03] Surten de Soita III : come sesos <a href= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'></a><br>[09:37:05] @ Mx3brainpower : Es que desayuno sesos <a href= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'> (?)<br>[09:37:29] Surten de Soita III : xD<br>[09:37:32] @ Mx3brainpower : No me dicen BrainPower por nada (?)<br><br>Se lo molestó con la frase por un tiempo, Wig hacía bromas en algunas presentaciones (<a href= 'http://www.sporepedia2.com/t11200-hoooooola-a-todos-soy-rex-p#218903'>1</a>, <a href= 'http://www.sporepedia2.com/t11239-hola-d#219820'>2</a>, <a href= 'http://www.sporepedia2.com/t11279-hola-como-estan#220755'>3</a>) y en una <a href= 'http://www.sporepedia2.com/t7069p496-hombre-lobo#218946'>narración de Hombre Lobo</a>."
+		"e": "Un error de tipeo de Mx3 hizo creer a lo usuarios del ChatBox que sus desayunos consisten en cerebros, y por eso el \"brain\" de su nick:<br><br>[09:36:04] @ Mx3brainpower : Tanto hablar de comida mi dio hambre y me fui a preparar el sesayuno.<br>[09:36:21] Surten de Soita III : lol<br>[09:36:39] @ Mx3brainpower : desayuno* <img src= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/2091913784.png'><br>[09:36:43] @ Andalaosa : Sesayuno <img src= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'><br>[09:36:58] Surten de Soita III : es un zombie <img src= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'><br>[09:37:03] Surten de Soita III : come sesos <img src= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'><br>[09:37:05] @ Mx3brainpower : Es que desayuno sesos <img src= 'http://r16.imgfast.net/users/1615/20/07/68/smiles/3377653495.png'> (?)<br>[09:37:29] Surten de Soita III : xD<br>[09:37:32] @ Mx3brainpower : No me dicen BrainPower por nada (?)<br><br>Se lo molestó con la frase por un tiempo, Wig hacía bromas en algunas presentaciones (<a href='http://www.sporepedia2.com/t11200-hoooooola-a-todos-soy-rex-p#218903'>1</a>, <a href='http://www.sporepedia2.com/t11239-hola-d#219820'>2</a>, <a href='http://www.sporepedia2.com/t11279-hola-como-estan#220755'>3</a>) y en una <a href= 'http://www.sporepedia2.com/t7069p496-hombre-lobo#218946'>narración de Hombre Lobo</a>."
 	}, {
 		"f": "como dice nuestro nada poderoso amigo esto es spam puro",
 		"a": "dekarserverbot",
@@ -969,7 +956,7 @@ $(document).ready(function() {
 	}, {
 		"f": "El freedom no quita imaginación, sino que te quita los límites de la imaginación. <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1889348728.png'>",
 		"a": "Wigazo",
-		"e": "Muchos usuarios odian a muerte el freedom porque creen que usando este cheat, hacés maravillas sin esfuerzo. En realidad, esto se debe a dekar, quien impuso este pensamiento. Como las masas suelen, a veces, seguir las ideas de dekar, muchos tienen esta forma de pensar. Sin embargo, se ha estado tratando de dejar de lado este pensamiento, como cuando Wig <a href= 'http://www.sporepedia2.com/t11423-necrolium#223270'>ijo la frase</a>."
+		"e": "Muchos usuarios odian a muerte el freedom porque creen que usando este cheat, hacés maravillas sin esfuerzo. Wig <a href= 'http://www.sporepedia2.com/t11423-necrolium#223270'>dijo esta frase</a> manifestando una opinión contraria."
 	}, {
 		"f": "Dark Injection  <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1149863413.png'>",
 		"a": "Medio foro",
@@ -997,7 +984,7 @@ $(document).ready(function() {
 	}, {
 		"f": "*Lanza una pezuña a Cora*",
 		"a": "Wigazo",
-		"e": "Wig suele nombrar a TKS como Cora, o vaca nazi, debido a los comerciales de la leche chocolatada de Sancor, donde la vaca Cora habla con acento Cordobés, ya que TKS es Cordobés. Lo de la pezuña es por <a href= 'https://www.youtube.com/watch?v=L1hit2mAPkE'>este comercial</a>, y lo de vaca nazi, es porque Wig tiene dos evidencias irrefutables para acusarlo de esa ideología (<a href= 'http://i1.ytimg.com/vi/UFLgK-qkWgI/hqdefault.jpg'>ésta</a> y <a href= 'http://www.derf.com.ar/imgnoticias/derf.com.ar_250206_2722009_0256228B.jpg'>ésta</a>)."
+		"e": "Wig suele nombrar a TKS como Cora, o vaca nazi, debido a los comerciales de la leche chocolatada de Sancor, donde la vaca Cora habla con acento cordobés, ya que TKS es cordobés. Lo de la pezuña es por <a href= 'https://www.youtube.com/watch?v=L1hit2mAPkE'>este comercial</a>, y lo de vaca nazi, es porque Wig tiene dos evidencias irrefutables para acusarlo de esa ideología (<a href= 'http://i1.ytimg.com/vi/UFLgK-qkWgI/hqdefault.jpg'>ésta</a> y <a href= 'http://www.derf.com.ar/imgnoticias/derf.com.ar_250206_2722009_0256228B.jpg'>ésta</a>)."
 	}, {
 		"f": "Si no mejoras tu ortografía, mi ojos lloraran letras",
 		"a": "Lechuza",
@@ -1041,7 +1028,7 @@ $(document).ready(function() {
 	}, {
 		"f": "me han dicho escroto de cabra... me voy del foro para siempre, antes esto era un refugio para mi, pero ahora todo se trata de escrotos. Dejare el foro por que se esta pudriendo por esto...",
 		"a": "dekarserverbot",
-		"e": "Dumdon <a href= 'Dumdon insultó a dekar, y él se lo tomó muy en serio. :S'>insultó a dekar</a>, y él se lo tomó muy en serio. :S"
+		"e": "Dumdon insultó a dekar, y él se lo tomó muy en serio. :S"
 	}, {
 		"f": "Cambiemos de Conservación",
 		"a": "Lechuza",
@@ -1130,6 +1117,81 @@ $(document).ready(function() {
 		"f": "Ban Ban Ban!",
 		"a": "Staff",
 		"e": "Cuando alguien comete una infracción, esto es lo que propone el Staff (según fuentes cuestionables)."
+	}, {
+		"f": "este juego es una farsa donde esta el juego solo enviar mensajitos para eso tenemos whattsap <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/147857766.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/147857766.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/147857766.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/147857766.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1394867128.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1394867128.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1394867128.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1394867128.png'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/788553.gif'><img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/788553.gif'>",
+		"a": "swaggie123",
+		"e": "Un usuario muy confundido, hizo un comentario bastante random en el <a href='http://www.sporepedia2.com/t6533p688-frases-celebres-del-foro#324053/'>\"tema de frases\"</a> ,tal vez sabiendo que quedaría ahí mismo. ¿Clásico Gilipollas en su máxima expresión, o un simple troll muy chistoso?" 
+	}, {
+		"f": "Yo no odio a los zelotes\",\"SOLO LOS PATEO" ,
+		"a": "Lechuza",
+		"e": "Juan trata de añadir adeptos a su arquetipo zelote, pero es consciente de lo odiados que son. En el chat, Lechu dijo de la nada esto, e inmediatamente lo pateó."
+	}, {
+		"f": "Tu Ortografía mas",
+		"a": "Endy",
+		"e": "Dicha por Endy, luego de que link hablara sobre un cerdo aparentemente asqueroso.<br>[01:48:17] Link :<br>lol ese cerdo me proboca ataces de epilespia y muerte de neuronas<br>[01:49:18] Endy :<br>Tu ortografía mas"
+	}, {
+		"f": "Atemia, si no te conociera diría que sos Ray todo esto es una excusa para justificar que las IPs coinciden. XD El caso es, que no te conozco. <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1459140577.png'>",
+		"a": "Wigazo",
+		"e": "Wigazo tratando de descubrir el secreto de Atemia en su <a href='http://www.sporepedia2.com/t7389-error-404-ausencia-casi-inecesaria#144631/'>\"despedida\"</a>"
+	}, {
+		"f": "TENGO EL ANO ENROJECIDO\",\"COMO LA PIEL DEL SEÑOR DE LOS DADILLOS",
+		"a": "Glumyglu (enmascarado como Mr. S2)",
+		"e": "Cuando Mr. S2 se conectó en el día que <a href='http://www.sporepedia2.com/t17620-entrad-al-chat-ahora-hijos-del-mal#343310/'>\"se llegó a los 27 usuarios en el chat\"</a> , empezó a decir cosas muy raras. Resultó que era Glumy liberando sus represiones sexuales."
+	}, {
+		"f": "JuanELNetro .12: Me empezo a doler hasta la mano // de tanto pensar en Lechu",
+		"a": "Metacheto",
+		"e": "En una kickwars, Sad, Lechu, Juan y Metacheto, Lechu y Cheto estaban abusando ( <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/2404292856.png'> ) de Juan, y Juan empezó a poner kicks a tutiplen, al final de la kickwar Juan dijo que le dolia la mano, y Cheto, como no, malpenso y le añadió a la frase \"de tanto pensar en lechu\"."
+	}, {
+		"f": "como puedes apuñalar a alguien con una polla? explicate",
+		"a": "Rhinestone",
+		"e": "Blood estaba hablando de pollas, y de repente cambia de conversación diciendo que cuando se duchaba quería apuñalar a alguien, y después del clear Rhine se confundió y puso eso. Blood tuvo que explicarse, la conversación es la siguiente:<br><dl class='codebox spoiler'><dt style='cursor: pointer;'>Conversación:</dt><dd><div class='spoiler_content'><br>[23:32:02] Endy : Mayus *<br> [23:32:03] RayZXook : el primero que escriba ser ascendido :3<br>[23:32:06] RayZXook : ...<br> [23:32:06] @ Sporeadicto 2011 : PRIMERO harp darp <br> [23:32:07] @ Metacheto : Kifflom es un saludo<br> [23:32:07] @ Rhinestone : como puedes apuñalar a alguien con una polla?<br> [23:32:09] RayZXook : T_T<br> [23:32:09] @ Rhinestone : explicate.<br>[23:32:10] FlairDreamer : xD<br>[23:32:13] @ Metacheto : LOL<br>[23:32:18] RayZXook : RHine<br>[23:32:19] @ Sporeadicto 2011 : oh, tercero Okay<br>[23:32:19] @ Metacheto : JAJAJAJA<br>[23:32:21] Blood : me refiero a mi cuchillo no a mi \"Polla\"<br>[23:32:23] Blood : ._.<br>[23:32:24] FlairDreamer : ¿Saludo en qué idioma?<br>[23:32:26] RayZXook : no trates de pensar como se hace eso<br>[23:32:28] @ Metacheto : DIOS<br>[23:32:30] Endy : Dios rhine xD<br>[23:32:33] @ Metacheto : ES QUE IMAGINARSELO<br>[23:32:34] @ Rhinestone : No quiero<br>[23:32:42] @ Rhinestone : Pero tu tocaste el tema<br>[23:32:42] @ Metacheto : Y... JAJAJAJA<br>[23:32:47] RayZXook : MANOS ARRIBA<br>[23:32:50] Blood está ausente<br>[23:32:51] @ Rhinestone : de como matar a alguien de un pollazo<br>[23:32:51] @ Metacheto : ES COMOO<br>[23:32:53] RayZXook : O LOS PENETRO (?<br>[23:32:54] @ Rhinestone : en el pecho<br>[23:33:03] @ Metacheto : \"Te voy a matar de un pollazo\"<br>[23:33:09] @ Metacheto : JAJAJAJA JAJAJAJA JAJAJAJA<br>[23:33:17] @ Rhinestone : xDDDDD<br>[23:33:25] Endy : Mmm...<br>[23:33:40] RayZXook : http://www.newgrounds.com/audio/listen/618143<br>[23:33:45] RayZXook : hazte publica Y U NO<br>[23:33:46] @ Metacheto : AY DIOS<br>[23:33:49] Blood : <br>[23:33:51] Blood : :V<br>[23:33:53] @ Metacheto : QUE PUTA GRACIA<br>[23:33:54] @ Rhinestone : https://www.youtube.com/watch?v=wXQ2W6yhVAE<br>[23:33:55] RayZXook : lol<br>[23:33:58] @ Metacheto : JAJAJAJA<br>[23:33:58] RayZXook : esa cara la recuerdo<br>[23:34:26] Endy : Che, ad<br>[23:34:29] Endy : Sad *<br>[23:35:04] Endy : ¿Me perdí de algo en el foro de WC? ¿Mar dijo algo de mi cambio de nombre o algo? xD<br>[23:35:16] @ Metacheto : no puedo respirar<br>[23:35:23] @ Metacheto : NO PUEDO<br>[23:35:24] RayZXook : cheto<br>[23:35:25] @ Metacheto : JAJAJAJA<br>[23:35:30] RayZXook : hoy soñaras con ladrones<br>[23:35:38] RayZXook : robando un banco a pollazos<br>[23:35:41] Blood : DASDASDA<br>[23:35:49] @ Sporeadicto 2011 : no se Endy<br>[23:35:54] @ Sporeadicto 2011 : estoy re perdido xD<br>[23:36:09] Endy : Ok xD<br>[23:36:12] @ Sporeadicto 2011 : quizas mi gato ya se murio y profanaron su cadaver<br>[23:36:15] @ Sporeadicto 2011 : quien sabre<br>[23:36:15] @ Metacheto : DIOS<br>[23:36:17] @ Sporeadicto 2011 : *abra<br>[23:36:19] @ Sporeadicto 2011 : *sabra<br>[23:36:20] @ Sporeadicto 2011 : MIERDA<br>[23:36:24] @ Metacheto : MEDUELE DE TANTO REIR<br>[23:36:29] @ Metacheto : JAJAJAJA<br>[23:36:32] @ Metacheto : JAJAJAJAJAJ<br>[23:36:38] RayZXook : poor little cheto (?<br>[23:36:48] ChronStrax ha sido desconectado/a el Miér 8 Abr - 23:36 (sesión finalizada<br>[23:36:53] Blood se ha desconectado el Miér 8 Abr - 23:36<br>[23:37:04] Endy : ¿Se murió tu PJ?<br>[23:37:05] Endy : D:<br>[23:37:42] @ Rhinestone : Cheto deja de pensar en pollas<br>[23:37:48] @ Rhinestone : y así no mnoriras de ris<br>[23:37:54] RayZXook : no piensa en polla<br>[23:37:56] @ Sporeadicto 2011 : quizas xD<br>[23:37:58] RayZXook : pollas*<br>[23:38:03] RayZXook : piensa en pollazos<br>[23:38:12] @ Rhinestone : Eh<br>[23:38:16] Endy : Lel<br>[23:38:18] @ Sporeadicto 2011 : ya no podremos ser Estrella de fuego y tormenta de arena : ( (?)<br>[23:38:20] @ Rhinestone : te imaginas una pelea de pollas<br>[23:38:26] @ Rhinestone : tipo usandolas de espadas en un duelo (?<br>[23:38:26] Endy : Mi Personaje ya sería veterana (?)<br>[23:38:34] RayZXook : LOL<br>[23:38:45] RayZXook : NO SIGAS<br>[23:38:47] RayZXook : matas a cheto xD<br>[23:39:06] @ Sporeadicto 2011 : y, mi gato esta abierto a muchas opciones If you know what I m (?)<br>[23:39:19] @ Rhinestone : ese es el punto<br>[23:39:34] Endy : LOL<br>[23:39:39] @ Rhinestone : Como se llama tu personaje Sad?<br>[23:39:49] @ Rhinestone : Talco de fuego?<br>[23:39:53] @ Metacheto : lol<br>[23:40:01] Endy : Zarpa Fria<br>[23:40:06] @ Rhinestone : Cielo Helado<br>[23:40:07] @ Rhinestone : Ah<br>[23:40:11] @ Metacheto : en serio, no me habia reido tanto en mi puta vida</div></dd></dl>"
+	}, {
+		"f": "Hacer que wig entre al chat es como invocar un demonio con agua bendita",
+		"a": "Way",
+		"e": "Se hacen cualquier tipo de broma sobre cómo invocar a Wig en el chat, por lo raro de que esto suceda.<dl class='codebox spoiler'><dt style='cursor: pointer;'>Conver:</dt><dd><div class='spoiler_content'><br>[19:12:40] @ Metacheto : Oh, emd<br>[19:12:47] @Metacheto : ¿Me podrias cambiar el nick?<br>[19:16:10] @ Metacheto : ...<br>[19:16:48] Way se ha unido al Chat el Mar 30 Jun - 19:16<br>[19:17:53] @ Way : cheto<br>[19:17:55] @ Way : sabes que es un MP?<br>[19:18:30] @ Metacheto : :-:<br>[19:18:34] @ Metacheto : ._.*<br>[19:18:37] @ Metacheto : Si<br>[19:18:42] Dororo ha sido desconectado/a el Mar 30 Jun - 19:18 (sesión finalizada)<br>[19:18:42] @ Way : entonces<br>[19:18:48] @ Way : mandale uno a los 5 admins o algo<br>[19:19:02] @ Metacheto : ...<br>[19:19:11] @ Metacheto : Sobre lo de cambiarme el nick no?<br>[19:19:22] @ Way : no , sobre la economia europea actual<br>[19:19:26] @ Way : Claro , sobre el nick ._.<br>[19:20:10] @ Metacheto : Voy a hacer que wig entre al chat (?)<br>[19:21:51] Emd4600 [ASR] ha sido desconectado/a el Mar 30 Jun - 19:21 (sesión finalizada)<br>[19:22:10] @ Way : \"Voy a hacer que wig entre al chat (?)\"<br>[19:22:13] @ Way : JAJAJAJAJJAJAJAJAAJAJAJA<br>[19:23:48] @ Metacheto : ¬¬<br>[19:23:49] @ Metacheto : (?)<br>[19:26:19] Way se ha desconectado el Mar 30 Jun - 19:26<br>[19:29:03] @ Metacheto : COÑO<br>[19:29:24] @ Metacheto : POR QUE COJONES TODOS LOS ADMINS SE VAN?!?!?!?!?!?!?!? Y U NO<br>[19:29:42] Way se ha unido al Chat el Mar 30 Jun - 19:29<br>[19:29:42] @ Way : Jaja...<br>[19:29:42] Way se ha desconectado el Mar 30 Jun - 19:29<br>[19:29:44] Way se ha unido al Chat el Mar 30 Jun - 19:29<br>[19:30:03] @ Way : Hacer que wig entre al chat es como invocar un demonio con agua bendita<br>[19:30:53] @ Metacheto : No me lo recuerdes what is this racket<br>[19:30:55] @ Metacheto : (?)<br>[19:31:21] @ Way : \"Hacer que wig entre al chat es como invocar un demonio con agua bendita\" - Way<br>[19:31:27] @ Way : Porfa , necesito una frase celebre (?)<br>[19:31:46] @ Metacheto : Pues ponla en el tema (?)<br>[19:35:32] @ Way : Ponla tu<br>[19:35:42] @ Way : viniendo de mi parece desesperacion<br>[19:35:47] @ Way : No es que no lo sea pero... (?)<br>[19:36:33] @ Metacheto : Okey</div></dd></dl>"
+	}, {	
+		"f": "El sabor del semen varia de cada chico. <img src='http://illiweb.com/fa/i/smiles/icon_wink.gif'>",
+		"a": "NEtr0n_JC",
+		"e": "Juan compartiéndonos sus experiencias personales con el semen."
+	}, {	
+		"f": "la profesia se cumple",
+		"a": "Link",
+		"e": "Al parecer Link mejorará su ortografía algún día, por lo que encontró Paul_q_f una vez en el chat, el julio del 2015:<br><br>[02:23:26] BlueXYZ : Ah, y Link mejorará su ortografía<br>[02:23:38] Link : ya la e mejorado<br>[02:23:53] Paul_q_f : LOL<br>[02:24:02] Link : la profesia se cumple"
+	}, {	
+		"f": "ven tengo lo necesario para ser admin <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/1363920492.png'>",
+		"a": "Link",
+		"e": "Link imitando a Emd en el chat."
+	}, {	
+		"f": "Me duele hasta la mano, de tanto pensar en lechu",
+		"a": "Netro (con palabras de MetaCheto)",
+		"e": "En una kickwars, Sad, Lechu, Juan y Metacheto, Lechu y Cheto estaban abusando ( <img src='http://illiweb.com/fa/i/smiles/icon_wink.gif'> ) de Juan, y Juan empezó a poner kicks a tutiplén, al final de la kickwar Juan dijo que le dolia la mano, y Cheto, como no, malpensó y le añadió a la frase \"de tanto pensar en lechu\"."
+	}, {	
+		"f": "Según mi novia, mi semen sabe a menta.",
+		"a": "Imperatrum DG",
+		"e": "DG contó que su novia le hizo una paja en el bus, luego le dio la mano al tío de la excursión y en algún momento se la comió a dgsito."
+	}, {	
+		"f": "En mi ciudad cuando llueve se spawnean negros que venden paraguas, parece el puto minecraft de noche",
+		"a": "Imperatrum DG",
+		"e": "Estaban en el chat recordando a la gente del top manta y DG soltó esta frase acerca de su ciudad cuando llueve:<br><dl class='codebox spoiler'><dt style='cursor: pointer;'>Conver:</dt><dd><div class='spoiler_content'><br>[11:03:06]	96pablo : <br />Los negritos del rop manta te vendian los vhs por la caye<br /><br />[11:03:14]	Surcus [A] : <br />AJAJAJA<br /><br />[11:03:20]	Surcus [A] : <br />Pues mira en la feria<br /><br />[11:03:22]	96pablo : <br />Calle*<br /><br />[11:03:26]	Surcus [A] : <br />De mi pueblo<br /><br />[11:03:27]	@ Dororo : <br />Dios<br /><br />[11:03:29]	@ Dororo : <br />Top manta<br /><br />[11:03:33]	Imperatrum DG : <br />En mi ciudad<br /><br />[11:03:35]	Imperatrum DG : <br />Cuando llueve<br /><br />[11:03:39]	Surcus [A] : <br />Estaba por comprarme la de al revés<br /><br />[11:03:43]	Imperatrum DG : <br />Se swpanean los negros que venden paraguas<br /><br />[11:03:45]	Surcus [A] : <br />A un top manta<br /><br />[11:03:46]	Surcus [A] : <br />xD<br /><br />[11:03:46]	Imperatrum DG : <br />Os lo juro<br /><br />[11:03:50]	96pablo : <br />Y los veias rebovinando casetes con un boli mientras te decian<br /><br />[11:03:51]	Imperatrum DG : <br />Parece el puto Minecraft de noche<br /><br />[11:03:52]	@ Dororo : <br />LOL<br /><br />[11:03:54]	Paul_q_f : <br />La verdad es que no creo que se pueda hacer siquiera, pero necesitamos confirmación - Okay<br /><br />[11:03:55]	Surcus [A] : <br />JAAJAJAJA<br /><br />[11:03:58]	96pablo : <br />El erey lion<br /><br />[11:03:59]	@ Dororo : <br />DIOS<br /><br />[11:04:02]	Paul_q_f : <br />DIOS</div></dd></dl>"
+}, {	
+		"f": "me costaron aceer 17 horas",
+		"a": "davirex2005",
+		"e": "Frase dicha por el en su pack de dragones y dinosaurios, luego se supo que las creaciones las \"<a href='http://www.sporepedia2.com/t18259p16-el-pack-de-dinosaurios-y-dragones-mega-buenos'>tomó prestadas</a>\" de <a href='http://www.sporepedia2.com/t198-pack-de-dragones'>otros</a> <a href='http://www.sporepedia2.com/t781p32-pack-de-dinosaurios'>packs</a> existentes en el foro."
+	}
+
+
+, {	
+		"f": "Pobre glaizer, se las quiere garchar a todas pero no puede (?)",
+		"a": "Brayansuper",
+		"e": "Cruel comentario de Brayan, al ser Glaizer rechazado por Max:<br /><dl class='codebox spoiler'><dt style='cursor: pointer;'>Conver:</dt><dd><div class='spoiler_content'>[01:37:44] Max : Nunca te dije que me gustabas<br /><br />[01:37:52]	Max : solo que me empezaste a agradar<br /><br />[01:38:07]	FlairDreamer : Friendzone detected (?)<br /><br />[01:38:08]	BrayanSuper : :v<br /><br />[01:38:09]	SporeGlaizer : jaja bueno es algo parecido no<br /><br />[01:38:14]	SporeGlaizer : xDDD<br /><br />[01:38:34]	Max : Si tan solo fueras de 16 años <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/2458038252.png' alt='Okay' longdesc='187' /> (?)<br /><br /><strong><font color='#ff002f'>[01:38:52]	BrayanSuper : Pobre glaizer, se las quiere garchar a todas pero no puede (?)</font></strong><br /><br />[01:39:05]	FlairDreamer : <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/96795.gif' alt='JAJAJAJA' longdesc='119' /><br /><br />[01:39:07]	ianmiara : xD<br /><br />[01:39:10]	FlairDreamer : Hasta a Rhine (?)<br /><br />[01:39:16]	Max : <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/96795.gif' alt='JAJAJAJA' longdesc='119' /><br /><br />[01:39:29]	Max : HAY DIOS BRAYAN<br /><br />[01:39:33]	Max : ME DEJASTE SIN AIRE<br /><br />[01:39:35]	SporeGlaizer : a todas? por q a todas? <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/2330518472.png' alt='Y U NO' longdesc='176' /><br /><br />[01:39:52]	Max : <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/96795.gif' alt='JAJAJAJA' longdesc='119' /><br /><br />[01:39:55]	SporeGlaizer : que hice yo? T___T<br /><br />[01:40:05]	SporeGlaizer : solo <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/2066584637.png' alt='Me gusta' longdesc='182' /> max<br /><br />[01:40:07]	FlairDreamer : <img src='http://r16.imgfast.net/users/1615/20/07/68/smiles/96795.gif' alt='JAJAJAJA' longdesc='119' /><br /><br />[01:40:09]	SporeGlaizer : (?<br /><br />[01:40:10]	Max : Querer garchar (?)</div></dd></dl>"
+	}, {	
+		"f": "Es que técnicamente soy el único usuario en todo el foro (sin contar leechers) que no tiene frase célebre ni está relacionado con ninguna. ¡Hasta Moe el de los Simpsons tiene una!",
+		"a": "Spinosaurus Supersapiens",
+		"e": "Dino no paraba de sugerir frases suyas o en las que estuviera involucrado, y siempre <a href='http://www.sporepedia2.com/t6438p448-premios-smilies-y-frases-celebres#366970'>recibía quejas</a>. De esta forma expresó su frustración (agarrándoselas con el pobre Moe), consiguiendo irónicamente inmortalizarse aquí mismo."
+	}, {	
+		"f": "Mentira, yo soy lesbiana",
+		"a": "LittleFang",
+		"e": "Trolleadas como esas del autocorrector solo pasan una vez en la vida.<br /><dl class='codebox spoiler'><dt style='cursor: pointer;'>Conver:</dt><dd><div class='spoiler_content'><br />LittleFang : <br />Yo la mia me senté arriba accidentalmente y le rompí la pantalla y le abrí y partí una esquina<br /><br />[16:16:20]	LittleFang : <br />No hay repuesto hasta el año que viene<br /><br />[16:16:22]	LittleFang : <br />Yao Ming<br /><br />[16:16:26]<br />SporeGlaizer está ausente : bañando :T<br /><br />[16:16:28]	MaxyTM : <br />LOL<br /><br />[16:16:40]	@ Rhinestone : <br />LOL<br /><br />[16:16:41]	LittleFang : <br />Y eso me pasó en octubre<br /><br />[16:16:56]	XleandroX : <br />Si la rompiste con solo sentarte no me imagino cuanto debes de pesar para hacer eso<br /><br />[16:16:57]	XleandroX : <br />Okno<br /><br />[16:17:15]	SporeGlaizer : <br />Las nachas de max fuero demasiado para la pobre netbook (?<br /><br />[16:17:19]	LittleFang : <br />JAJAJAJA<br /><br />[16:17:21]	LittleFang : <br />Sorete<br /><br />[16:17:26]<br />SporeGlaizer está ausente : bañando<br /><br />[16:17:38]	LittleFang : <br />Mentira, yo soy lesbiana<br /><br />[16:17:43]	LittleFang : <br />Liviana *<br /><br />[16:17:47]	LittleFang : <br />Dios<br /><br />[16:17:48]	LittleFang : <br />Wtf<br /><br />[16:18:05]	SporeGlaizer : <br />Jajajajajajakaka lesbiana xD<br /><br />[16:18:13]<br />SporeGlaizer está ausente : bañando<br /><br />[16:18:17]	LittleFang : <br />ESO ES MENTIRA XDDDDD<br /><br />[16:18:23]	XleandroX : <br />Okay, entonces tu PC es de plástico<br /><br />[16:18:29]	MaxyTM : <br />oye<br /><br />[16:18:33]	LittleFang : <br />Sep<br /><br />[16:18:36]	MaxyTM : <br />no te robes mis ualidades (?<br /><br />[16:18:40]	MaxyTM : <br />cualidades*<br /><br />[16:18:59]	@ Rhinestone : <br />ENDY TORTILLERA<br /><br />[16:19:01]	@ Rhinestone : <br />EAEAAAAAAAAAA<br /><br />[16:19:07]	@ Rhinestone : <br />A Cheto no le gustará esto.<br /><br />[16:19:10]	LittleFang : <br />MENTIRA</div></dd></dl>"
 	}];
 
 	var fraseRandom = Math.floor(Math.random() * frases.length);

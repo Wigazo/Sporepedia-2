@@ -1,16 +1,4 @@
 //Posición: En los temas
-//BORRAR
-var script = document.createElement('script');
-script.src = 'http://code.jquery.com/ui/1.11.2/jquery-ui.min.js';
-script.type = 'text/javascript';
-document.getElementsByTagName('head')[0].appendChild(script);
-var link = document.createElement('link');
-link.href = 'http://code.jquery.com/ui/1.10.2/themes/vader/jquery-ui.min.css';
-link.rel = 'stylesheet';
-link.id = 'ui-theme';
-document.getElementsByTagName('head')[0].appendChild(link);
-//
-
 function citar(pid){
 	var contenido = $("#p" + pid + " .content div").html();
 	var autor = $("#p" + pid + " .author")[0].children[1];
