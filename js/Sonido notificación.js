@@ -1,4 +1,15 @@
 //Posición: En todas las páginas
+var metaTags = document.getElementsByTagName("meta");
+var mobMeta = false;
+for (var i = 0, j = metaTags.length; i < j; i++) {
+    if (metaTags[i].getAttribute("name") == "viewport") {
+        mobMeta = true;
+        break;
+    }
+}
+if (!mobMeta) {
+//Solo se ejecuta en versión de escritorio
+
 $(function() {
     $(function() {
         var testaudio = document.createElement('audio');
@@ -23,3 +34,6 @@ $(function() {
         }
     })
 });
+
+
+}

@@ -1,4 +1,15 @@
 ﻿//Posición: En todas las páginas
+var metaTags = document.getElementsByTagName("meta");
+var mobMeta = false;
+for (var i = 0, j = metaTags.length; i < j; i++) {
+    if (metaTags[i].getAttribute("name") == "viewport") {
+        mobMeta = true;
+        break;
+    }
+}
+if (!mobMeta) {
+//Solo se ejecuta en versión de escritorio
+
 var bannerAleatorio = function() {
     if (localStorage.getItem("banners") !== null && new Date().getTime() - JSON.parse(localStorage.getItem("banners")).ultimaActualizacion < 1000 * 60 * 60 * 24 * 15) {
         var banners = JSON.parse(localStorage.getItem("banners")).lista;
@@ -71,3 +82,6 @@ $(function() {
         bannerAleatorio();
     }
 });
+
+
+}
