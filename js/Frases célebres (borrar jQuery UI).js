@@ -236,7 +236,7 @@ $(document).ready(function() {
 	}, {
 		"f": "LOOSERNENSE",
 		"a": "Darkesis",
-		"e": "Apodo que le dio él a Lusanense, quien había hecho el primer plagio del foro: Mis Creaciones Spore. Este foro pasó a ser <a href='http://sporerpg.superforo.net/'>\"Spore RPG\"</a>, quienes muchos le dedicaron muchísimas horas para hacerlo cool, y, ya que juaner pretendía hacer de este juego muy complejo, no se pudo terminar (es más, le daba a Wig para hacer posts sobre cosas que él no entendía, y Wig le preguntaba por Skype qué es esto, qué es aquello, y no juaner daba ni una señal de vida)."
+		"e": "Apodo que le dio él a Lusanense, quien había hecho el primer plagio del foro: Mis Creaciones Spore. Este foro pasó a ser <a href='http://sporerpg.superforo.net/'>\"Spore RPG\"</a>, quienes muchos le dedicaron muchísimas horas para hacerlo cool, y, ya que juaner pretendía hacer de este juego muy complejo, no se pudo terminar (es más, le daba a Wig para hacer posts sobre cosas que él no entendía, y Wig le preguntaba por Skype qué es esto, qué es aquello, y juaner no daba ni una señal de vida)."
 	}, {
 		"f": "Nos han plagiado el foro.",
 		"a": "Staff",
